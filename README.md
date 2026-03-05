@@ -1,240 +1,194 @@
-# 5200edu Frontend
+# 5200Edu Frontend
 
-Dự án frontend cho nền tảng học trực tuyến 5200edu.
+Frontend application for the **5200Edu online learning platform**, built with **Next.js App Router**.  
+The project supports **Student/Teacher workflows, authentication, multilingual content, and video streaming**.
 
-## Cấu trúc thư mục
+---
 
-```
+# Tech Stack
+
+- **Framework:** Next.js 16 (App Router)
+- **UI:** React 19 + TypeScript
+- **Styling:** Tailwind CSS 4
+- **Component Library:** shadcn/ui (Radix UI)
+- **Authentication:** NextAuth (JWT + Google OAuth)
+- **HTTP Client:** Axios (custom wrapper + interceptors)
+- **Internationalization:** next-intl
+- **Forms:** React Hook Form
+- **Video Streaming:** HLS.js
+- **State Management:** React Context
+
+---
+
+# Project Structure
 5200edu-fe/
-├── app/                          # Next.js App Router
-│   ├── [locale]/                 # Routing đa ngôn ngữ (vi, en)
-│   ├── (guest)/                  # Public routes
-│   ├── student/                  # Student protected routes
-│   │   └── settings/             # Modular settings
-│   ├── teacher/                  # Teacher protected routes
-│   │   └── settings/             # Modular settings
-│   ├── layout.tsx                # Root layout với SEO
-│   ├── sitemap.ts                # Sitemap tự động
-│   └── robots.ts                 # Robots.txt
-├── components/                   # 113+ React components
-│   ├── home/                     # Landing page
-│   ├── courses/                  # Course components
-│   ├── student/                  # Student-specific
-│   │   └── settings/             # Modular settings
-│   ├── teacher/                  # Teacher-specific
-│   │   └── settings/             # Modular settings
-│   ├── shared/                   # Reusable components
-│   └── ui/                       # Shadcn/ui primitives
-├── services/                     # API integration (34 services)
-│   ├── http/                     # HTTP client
-│   │   ├── index.ts              # Axios instance
-│   │   └── service-wrapper.ts    # Generic wrapper
-│   └── apis/                     # API endpoints
-├── hooks/                        # 9 custom hooks
-│   ├── useAuth.ts                # Authentication
-│   ├── useApi.ts                 # API calls
-│   ├── useDebounce.ts            # Debounce
-│   ├── useLocalStorage.ts        # Local storage
-│   └── useWindowSize.ts          # Window size
-├── lib/                          # Utilities
-│   ├── types/                    # TypeScript types
-│   ├── validations/              # Zod schemas
-│   └── utils/                    # Helper functions
-├── messages/                     # i18n translations
-│   ├── en.json
-│   └── vi.json
-└── providers/                    # NextAuth SessionProvider
-```
+│
+├── app/ # Next.js App Router
+│ ├── [locale]/ # i18n routing (vi, en)
+│ │ ├── (guest)/ # Public pages
+│ │ ├── student/ # Student dashboard
+│ │ └── teacher/ # Teacher dashboard
+│ ├── api/ # Route handlers
+│ ├── layout.tsx # Root layout + providers
+│ ├── sitemap.ts # SEO sitemap
+│ └── robots.ts # robots.txt
+│
+├── components/ # UI components
+│ ├── home/
+│ ├── courses/
+│ ├── student/
+│ ├── teacher/
+│ ├── video/
+│ ├── forms/
+│ ├── modals/
+│ ├── shared/
+│ └── ui/ # shadcn primitives
+│
+├── services/ # API services
+│ ├── http/ # Axios instance + interceptors
+│ └── apis/ # Service modules
+│
+├── hooks/ # Custom React hooks
+│ ├── useAuth
+│ ├── useApi
+│ ├── useDebounce
+│ ├── useLocalStorage
+│ └── useWindowSize
+│
+├── lib/ # Utilities
+│ ├── seo
+│ ├── routing
+│ ├── validations
+│ └── utils
+│
+├── messages/ # i18n translations
+│ ├── en.json
+│ └── vi.json
+│
+├── config/ # External configs
+│ └── minio.config.ts
+│
+└── public/ # Static assets
 
-## Tech Stack
 
-- **Framework**: Next.js 16 (App Router)
-- **UI Library**: React 19
-- **Language**: TypeScript 5 (strict mode)
-- **Styling**: Tailwind CSS 4
-- **Component Library**: Shadcn/ui (Radix UI)
-- **Authentication**: NextAuth 4.24
-- **HTTP Client**: Axios 1.13.2
-- **Internationalization**: next-intl 4.6.1
-- **State Management**: React Context + SessionProvider
-- **Form Handling**: React Hook Form 7.70.0
+---
 
-## Features
+# Key Features
 
-### 🎨 UI/UX
-- Shadcn/ui components (Radix UI + Tailwind)
-- Responsive design (mobile-first)
-- Modular settings architecture
-- Dark mode support (sẵn sàng)
+## Authentication
 
-### 🔐 Authentication
-- JWT token-based authentication
-- Auto token refresh on 401
-- Protected routes by role
-- Email/password + Google OAuth
+- Email/password authentication
+- Google OAuth login
+- JWT access & refresh token flow
+- Automatic token refresh via **Axios interceptors**
+- Protected routes for **Student / Teacher roles**
 
-### 🌐 Internationalization
-- Hỗ trợ đa ngôn ngữ (vi, en)
-- SEO-friendly URLs
-- URL-based locale routing
+---
 
-### 📡 API Integration
-- Axios với interceptors
-- Auto retry với refresh token
-- Service wrapper (type-safe)
-- Error handling standardized
+## Internationalization
 
-### 🔧 Custom Hooks
-- `useAuth` - Quản lý authentication
-- `useApi` - Gọi API với loading/error states
-- `useDebounce` - Debounce input
-- `useLocalStorage` - Persist data
-- `useWindowSize` - Responsive utilities
-- `useClickOutside` - Detect outside clicks
+- Supports **Vietnamese and English**
+- Locale-based routing (`/vi`, `/en`)
+- Implemented with **next-intl**
 
-### 🚀 SEO Optimization
-- Dynamic metadata
-- Sitemap tự động
-- Robots.txt
-- Open Graph tags
-- Twitter Card support
+Example:
 
-## Installation
+```tsx
+import { useTranslations } from 'next-intl';
 
-```bash
-npm install
-```
+const t = useTranslations('home');
+return <h1>{t('heroTitle')}</h1>;
+Video Streaming
 
-## Environment Variables
+Course videos use HLS streaming for efficient playback.
 
-Tạo file `.env.local`:
+Video upload system
 
-```bash
-cp .env.example .env.local
-```
+HLS playback using HLS.js
 
-Cấu hình:
-```env
-NEXT_PUBLIC_API_URL=http://localhost:3000/api
-NEXT_PUBLIC_SITE_URL=http://localhost:3000
-NEXTAUTH_SECRET=your-secret-key
-NEXTAUTH_URL=http://localhost:3000
-GOOGLE_CLIENT_ID=xxx
-GOOGLE_CLIENT_SECRET=xxx
-REDIS_URL=redis://localhost:6379  # Optional
-```
+Media stored in MinIO
 
-## Development
+Main files:
 
-```bash
-npm run dev
-```
+components/video/video-upload-section.tsx
+components/video/video-hls-player.tsx
+config/minio.config.ts
+API Integration
 
-Open [http://localhost:3000](http://localhost:3000)
+All API calls go through a service layer.
 
-## Build
+Features:
 
-```bash
-npm run build
-npm start
-```
+Axios instance with interceptors
 
-## Type Checking
+Automatic token refresh
 
-```bash
-tsc --noEmit
-```
+Centralized error handling
 
-## Sử dụng
+Type-safe service wrappers
 
-### Gọi API
+Example:
 
-```typescript
 import { authService } from '@/services/apis';
 
-// Login
 const response = await authService.login({
   email: 'user@example.com',
   password: 'password'
 });
-```
+Environment Variables
 
-### Custom Hooks
+Create .env.local:
 
-```typescript
-import { useAuth } from '@/hooks/useAuth';
+NEXT_PUBLIC_API_URL=http://localhost:7000/api/v1
+NEXT_PUBLIC_SITE_URL=http://localhost:5005
 
-function MyComponent() {
-  const { user, login, logout } = useAuth();
-  // ...
-}
-```
+NEXTAUTH_URL=http://localhost:5005
+NEXTAUTH_SECRET=your-secret-key
 
-### Modular Settings Components
+NEXT_PUBLIC_GOOGLE_CLIENT_ID=your-google-client-id
 
-```typescript
-// Student settings
-import {
-  ProfileSettings,
-  SecuritySettings,
-  NotificationSettings,
-  SupportSettings
-} from '@/components/student/settings';
+NEXT_PUBLIC_MINIO=http://localhost:7099
 
-// Teacher settings
-import {
-  ProfileSettings,
-  SecuritySettings,
-  PaymentSettings,
-  NotificationSettings
-} from '@/components/teacher/settings';
-```
+.env* files are ignored by Git.
 
-### Thêm Shadcn/ui Components
+Development
 
-```bash
-npx shadcn@latest add button
-npx shadcn@latest add card
-npx shadcn@latest add dialog
-```
+Install dependencies:
 
-## Code Standards
+npm install
 
-- **File size limit**: ~650 dòng cho components
-- **Naming**: kebab-case cho files, PascalCase cho components
-- **TypeScript**: Strict mode, no implicit any
-- **Imports**: Sử dụng `@/` alias thay vì relative paths
-- **Styling**: Tailwind CSS utilities优先
+Run development server:
 
-Chi tiết: [docs/code-standards.md](./docs/code-standards.md)
+npm run dev
 
-## Project Documentation
+Open:
 
-- [Codebase Summary](./docs/codebase-summary.md)
-- [Code Standards](./docs/code-standards.md)
-- [Project Overview](./docs/project-overview-pdr.md)
+http://localhost:5005
+Production Build
 
-## Notes
+Build the project:
 
-- **Không sử dụng Redux** - State được quản lý bằng React Context
-- Shadcn/ui được xây dựng trên Tailwind (không xung đột)
-- TypeScript strict mode được bật
-- Axios interceptors tự động xử lý token refresh
-- SEO metadata được tối ưu cho mọi trang
-- Modular settings giúp maintain code dễ dàng hơn
+npm run build
 
-## Recent Updates (2026-01-21)
+Run production server:
 
-### Code Cleanup
-- ✅ Removed 3000+ lines of unused code
-- ✅ Fixed all TypeScript errors
-- ✅ Modularized teacher settings (2705 → 4 files)
-- ✅ Modularized student settings (2196 → 4 files)
-- ✅ Added service wrapper for type-safe API calls
-- ✅ Updated type definitions
+npm start
+Code Guidelines
 
-### File Structure
-- ✅ Removed duplicate `components/teachers/` directory
-- ✅ Removed unused `lib/mock-data.ts`
-- ✅ Removed unused `verify-email/auto` page
-- ✅ Organized settings into modular components
+TypeScript strict mode
+
+Use @/ path alias instead of relative imports
+
+Prefer Tailwind utility classes
+
+API calls should go through services/apis
+
+Keep components modular and maintainable
+
+Notes
+
+Sensitive data such as .env files are not committed.
+
+Project architecture focuses on modularity and scalability.
+
+Designed for real-world production workflows including authentication, streaming media, and multi-language support.
