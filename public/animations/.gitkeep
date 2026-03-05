@@ -1,0 +1,31 @@
+# Animation Files
+
+This directory should contain the following video files from Storyset:
+
+## Required Files (Download from Storyset - Free Account Needed)
+
+### 1. browser-stats-rafiki.mp4
+- URL: https://storyset.com/illustration/browser-stats/rafiki
+- Used in: Card 1 & Card 2 ("Bạn không xây dựng mọi thứ một mình" & "Thu nhập cần được đo lường minh bạch")
+- Format: MP4 video
+- Settings: Loop, Auto-play
+
+### 2. business-decisions-bro.mp4
+- URL: https://storyset.com/illustration/business-decisions/bro
+- Used in: Card 3 ("Dữ liệu được phục vụ cho quyết định của bạn")
+- Format: MP4 video
+- Settings: Loop, Auto-play
+
+## How to Download:
+
+1. Go to Storyset website (free account required)
+2. Search for the illustration by name
+3. Click "Download" → Choose "Video" or "MP4" format
+4. Save to this directory
+
+## Temporary Solution:
+
+If you don't have Storyset account yet, the code will fall back to static SVG images:
+- /images/browser-stats-rafiki-1.svg
+- /images/browser-stats-rafiki-2.svg
+- /images/business-decisions-bro.svg

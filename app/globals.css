@@ -1,0 +1,480 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+}
+
+@layer base {
+  :root {
+    /* Primary Colors - Blue theme from Figma */
+    --primary: 217 91% 60%;
+    /* #3B82F6 */
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary Colors */
+    --secondary: 210 40% 96%;
+    /* #F3F4F6 */
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    /* Accent Colors */
+    --accent: 217 91% 60%;
+    /* #4162e7 - Blue to match theme */
+    --accent-foreground: 0 0% 100%;
+
+    /* Semantic Colors - from Figma specs */
+    --background: 0 0% 100%;
+    /* #FFFFFF */
+    --foreground: 222 84% 5%;
+    /* #111827 */
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 84% 5%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 84% 5%;
+
+    --muted: 210 40% 96%;
+    /* #F3F4F6 */
+    --muted-foreground: 215 16% 47%;
+    /* #6B7280 */
+
+    --destructive: 0 84% 60%;
+    /* #EF4444 */
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 215 32% 91%;
+    /* #E5E7EB */
+    --input: 215 32% 91%;
+    --ring: 217 91% 60%;
+    /* Match primary #3B82F6 */
+
+    /* Custom Design Tokens from Figma */
+    --color-primary-50: 217 91% 98%;
+    /* #EFF6FF */
+    --color-primary-600: 217 91% 55%;
+    /* #2563EB */
+    --color-primary-700: 217 91% 47%;
+    /* #1D4ED8 */
+    --color-primary-900: 216 88% 27%;
+    /* #1E40AF */
+
+    --color-success: 160 84% 39%;
+    /* #10B981 */
+    --color-success-dark: 158 64% 42%;
+    /* #059669 */
+    --color-warning: 38 92% 50%;
+    /* #F59E0B */
+    --color-error: 0 84% 60%;
+    /* #EF4444 */
+    --color-error-dark: 0 74% 42%;
+    /* #DC2626 */
+
+    --color-gray-50: 210 40% 98%;
+    /* #F9FAFB */
+    --color-gray-100: 211 47% 95%;
+    /* #F3F4F6 */
+    --color-gray-200: 214 32% 91%;
+    /* #E5E7EB */
+    --color-gray-300: 213 13% 75%;
+    /* #D1D5DB */
+    --color-gray-500: 215 16% 47%;
+    /* #6B7280 */
+    --color-gray-600: 215 16% 35%;
+    /* #4B5563 */
+    --color-gray-700: 215 25% 27%;
+    /* #374151 */
+    --color-gray-900: 222 84% 5%;
+    /* #111827 */
+
+    /* Typography */
+    --font-family-primary: var(--font-inter), system-ui, sans-serif;
+
+    /* Spacing - 4px grid */
+    --space-1: 4px;
+    --space-2: 8px;
+    --space-3: 12px;
+    --space-4: 16px;
+    --space-5: 20px;
+    --space-6: 24px;
+    --space-7: 28px;
+    --space-8: 32px;
+    --space-12: 48px;
+    --space-16: 64px;
+
+    /* Border Radius */
+    --radius-xs: 2px;
+    --radius-sm: 4px;
+    --radius-md: 6px;
+    --radius-lg: 8px;
+    --radius-xl: 12px;
+    --radius-2xl: 16px;
+
+    /* Shadows */
+    --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -1px rgb(0 0 0 / 0.06);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -2px rgb(0 0 0 / 0.05);
+    --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 10px 10px -5px rgb(0 0 0 / 0.04);
+
+    --radius: 8px;
+    /* Default radius for shadcn components */
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 16 100% 50%;
+    /* Darker orange for dark mode */
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --accent: 160 50% 40%;
+    /* Darker green for dark mode */
+    --accent-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 16 100% 50%;
+  }
+
+  * {
+    border-color: hsl(var(--border));
+  }
+
+  html {
+    color-scheme: light dark;
+  }
+
+  body {
+    font-family: var(--font-family-primary);
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .theme {
+    --animate-orbit: orbit calc(var(--duration)*1s) linear infinite;
+  }
+}
+
+@layer components {
+
+  /* Card Component - Figma Spec */
+  .figma-card {
+    @apply bg-white border border-gray-200 rounded-lg p-4;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+  }
+
+  /* Button Size Variants - Figma Spec */
+  .figma-button-sm {
+    height: 32px;
+    font-size: 13px;
+    padding: 0 12px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+  }
+
+  .figma-button-md {
+    height: 40px;
+    font-size: 14px;
+    padding: 0 16px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+  }
+
+  .figma-button-lg {
+    height: 48px;
+    font-size: 16px;
+    padding: 0 24px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+  }
+
+  .figma-button-xl {
+    height: 56px;
+    font-size: 18px;
+    padding: 0 32px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+  }
+
+  /* Button Primary - Figma Spec */
+  .figma-btn-primary {
+    @apply bg-blue-500 text-white px-4 py-2 rounded-md font-medium text-sm;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+    transition: all 0.2s ease;
+  }
+
+  .figma-btn-primary:hover {
+    @apply bg-blue-600;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -1px rgb(0 0 0 / 0.06);
+  }
+
+  /* Button Secondary - Figma Spec */
+  .figma-btn-secondary {
+    @apply bg-white text-gray-700 border border-gray-300 px-4 py-2 rounded-md font-medium text-sm;
+    transition: all 0.2s ease;
+  }
+
+  .figma-btn-secondary:hover {
+    @apply bg-gray-50 border-gray-400;
+  }
+
+  /* Input Field - Figma Spec */
+  .figma-input {
+    @apply bg-white border border-gray-300 rounded-md px-4 py-3 text-sm text-gray-900 w-full;
+    transition: all 0.2s ease;
+  }
+
+  .figma-input:focus {
+    @apply outline-none border-blue-500;
+    box-shadow: 0 0 0 3px rgb(59 130 246 / 0.1);
+  }
+
+  /* Badge Components - Figma Spec */
+  .figma-badge-sm {
+    @apply px-2 py-1 text-xs rounded-sm font-medium;
+  }
+
+  .figma-badge-md {
+    @apply px-3 py-1 text-sm rounded-sm font-medium;
+  }
+
+  .figma-badge-success {
+    @apply bg-emerald-500 text-white;
+  }
+
+  .figma-badge-warning {
+    @apply bg-amber-500 text-white;
+  }
+
+  .figma-badge-error {
+    @apply bg-red-500 text-white;
+  }
+
+  /* Avatar Component - Figma Spec */
+  .figma-avatar {
+    @apply rounded-full object-cover border-2 border-gray-200;
+  }
+
+  .figma-avatar-sm {
+    width: 32px;
+    height: 32px;
+  }
+
+  .figma-avatar-md {
+    width: 48px;
+    height: 48px;
+  }
+
+  .figma-avatar-lg {
+    width: 64px;
+    height: 64px;
+  }
+
+  /* Text Styles - Figma Spec */
+  .figma-text-xs {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  .figma-text-sm {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .figma-text-base {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .figma-text-lg {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  .figma-text-xl {
+    font-size: 20px;
+    line-height: 1.3;
+  }
+
+  .figma-text-2xl {
+    font-size: 24px;
+    line-height: 1.3;
+  }
+
+  .figma-text-3xl {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+
+  /* Interactive States - Figma Spec */
+  .figma-interactive:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+  }
+
+  .figma-interactive:active {
+    opacity: 0.8;
+    transform: translateY(0);
+  }
+
+  /* Additional utility classes */
+  .border-3 {
+    border-width: 3px;
+  }
+
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  /* Shimmer animation for progress bars */
+  @keyframes shimmer {
+    0% {
+      transform: translateX(-100%);
+    }
+
+    100% {
+      transform: translateX(100%);
+    }
+  }
+
+  .animate-shimmer {
+    animation: shimmer 2s infinite;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@theme inline {
+  @keyframes orbit {
+    from {
+      transform: translate(-50%, -50%) rotate(calc(var(--angle, 0) * 1deg)) translateX(calc(var(--radius, 50) * 1px)) rotate(calc(var(--angle, 0) * -1deg));
+    }
+
+    to {
+      transform: translate(-50%, -50%) rotate(calc(var(--angle, 0) * 1deg + 360deg)) translateX(calc(var(--radius, 50) * 1px)) rotate(calc(var(--angle, 0) * -1deg - 360deg));
+    }
+  }
+}
+
+/* Hide scrollbar utility */
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .animate-orbit {
+    animation: orbit calc(var(--duration, 20) * 1s) linear infinite;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+
+/* src/components/BlogEditor.css */
+.blog-editor-container {
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.blog-editor-content {
+  background: #0f172a;
+  color: #e2e8f0;
+  line-height: 1.6;
+}
+
+.blog-editor-content p {
+  margin: 0 0 1em;
+}
+
+.blog-ul {
+  list-style-type: disc;
+  padding-left: 1.5em;
+  margin: 0.5em 0;
+}
+
+.blog-ol {
+  list-style-type: decimal;
+  padding-left: 1.8em;
+  margin: 0.5em 0;
+}
+
+.prose :where(code):not(:where([class~="not-prose"] *)) {
+  background: #334155;
+  padding: 0.1em 0.3em;
+  border-radius: 4px;
+}
+
+.blog-editor-content {
+  background: #fffefe;
+  border-radius: 8px;
+  border: 0.5px solid #DBDDE5;
+  font-size: 14px;
+  color: #4D505F
+}

@@ -1,0 +1,125 @@
+services:
+  redis-fe:
+    container_name: 5200-redis-fe-prod
+    image: redis:latest
+    hostname: redis-fe
+    restart: unless-stopped
+    command: redis-server --port 6378 --appendonly yes --maxmemory 512mb --maxmemory-policy allkeys-lru
+    volumes:
+      - redis-data:/data
+    networks:
+      5200edu-network:
+        aliases:
+          - redis-fe
+    healthcheck:
+      test: ["CMD", "redis-cli", "-p", "6378", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
+      start_period: 10s
+
+  redis-commander:
+    container_name: 5200-redis-commander-fe-prod
+    image: rediscommander/redis-commander:latest
+    restart: unless-stopped
+    environment:
+      - REDIS_HOSTS=local:redis-fe:6378
+    ports:
+      - "8082:8081"
+    networks:
+      - 5200edu-network
+      - traefik-public
+    depends_on:
+      redis-fe:
+        condition: service_healthy
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.redis-commander-fe.rule=Host(`redis-fe.5200ai.com`)"
+      - "traefik.http.routers.redis-commander-fe.entrypoints=websecure"
+      - "traefik.http.routers.redis-commander-fe.tls=true"
+      - "traefik.http.routers.redis-commander-fe.tls.certresolver=letsencrypt"
+      - "traefik.http.services.redis-commander-fe.loadbalancer.server.port=8081"
+      - "traefik.docker.network=traefik-public"
+
+  frontend:
+    container_name: 5200-frontend-prod
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - NEXT_PUBLIC_SITE_URL=${NEXT_PUBLIC_SITE_URL:-https://5200ai.com}
+        - NEXT_PUBLIC_API_URL=${NEXT_PUBLIC_API_URL:-https://api.5200ai.com/api/v1}
+        - NEXT_PUBLIC_GOOGLE_CLIENT_ID=${NEXT_PUBLIC_GOOGLE_CLIENT_ID}
+        - NEXT_PUBLIC_MINIO=${NEXT_PUBLIC_MINIO:-https://minio.5200ai.com}
+    restart: always
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - HOSTNAME=0.0.0.0
+      - NEXT_PUBLIC_SITE_URL=${NEXT_PUBLIC_SITE_URL:-https://5200ai.com}
+      - NEXT_PUBLIC_API_URL=${NEXT_PUBLIC_API_URL:-https://api.5200ai.com/api/v1}
+      - NEXT_PUBLIC_GOOGLE_CLIENT_ID=${NEXT_PUBLIC_GOOGLE_CLIENT_ID}
+      - NEXT_PUBLIC_MINIO=${NEXT_PUBLIC_MINIO:-https://minio.5200ai.com}
+      - REDIS_URL=redis://redis-fe:6378
+      - NEXTAUTH_URL=https://5200ai.com
+      - NEXTAUTH_SECRET=${NEXTAUTH_SECRET}
+    networks:
+      - traefik-public
+      - 5200edu-network
+    depends_on:
+      redis-fe:
+        condition: service_healthy
+    labels:
+      - "traefik.enable=true"
+      
+      # HTTP Router - Redirect to HTTPS
+      - "traefik.http.routers.5200-fe-prod.rule=Host(`5200ai.com`) || Host(`www.5200ai.com`)"
+      - "traefik.http.routers.5200-fe-prod.entrypoints=web"
+      - "traefik.http.routers.5200-fe-prod.middlewares=5200-fe-prod-redirect-https"
+      
+      # HTTPS Router
+      - "traefik.http.routers.5200-fe-prod-secure.rule=Host(`5200ai.com`) || Host(`www.5200ai.com`)"
+      - "traefik.http.routers.5200-fe-prod-secure.entrypoints=websecure"
+      - "traefik.http.routers.5200-fe-prod-secure.tls=true"
+      - "traefik.http.routers.5200-fe-prod-secure.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.5200-fe-prod-secure.service=5200-fe-prod"
+      - "traefik.http.routers.5200-fe-prod-secure.middlewares=5200-fe-prod-redirect-www,5200-fe-prod-headers"
+      
+      # Service - Port 3000
+      - "traefik.http.services.5200-fe-prod.loadbalancer.server.port=3000"
+      
+      # Middleware - HTTPS Redirect
+      - "traefik.http.middlewares.5200-fe-prod-redirect-https.redirectscheme.scheme=https"
+      - "traefik.http.middlewares.5200-fe-prod-redirect-https.redirectscheme.permanent=true"
+      
+      # Middleware - Redirect www to non-www
+      - "traefik.http.middlewares.5200-fe-prod-redirect-www.redirectregex.regex=^https://www\\.5200ai\\.com/(.*)"
+      - "traefik.http.middlewares.5200-fe-prod-redirect-www.redirectregex.replacement=https://5200ai.com/$${1}"
+      - "traefik.http.middlewares.5200-fe-prod-redirect-www.redirectregex.permanent=true"
+      
+      # Middleware - Security Headers
+      - "traefik.http.middlewares.5200-fe-prod-headers.headers.customrequestheaders.X-Forwarded-Proto=https"
+      - "traefik.http.middlewares.5200-fe-prod-headers.headers.customresponseheaders.X-Frame-Options=SAMEORIGIN"
+      - "traefik.http.middlewares.5200-fe-prod-headers.headers.customresponseheaders.X-Content-Type-Options=nosniff"
+      - "traefik.http.middlewares.5200-fe-prod-headers.headers.customresponseheaders.Referrer-Policy=strict-origin-when-cross-origin"
+      - "traefik.http.middlewares.5200-fe-prod-headers.headers.customresponseheaders.Permissions-Policy=camera=(), microphone=(), geolocation=()"
+      
+      # Network
+      - "traefik.docker.network=traefik-public"
+
+    healthcheck:
+      test: ["CMD", "node", "-e", "require('http').get('http://localhost:3000', (r) => {process.exit((r.statusCode >= 200 && r.statusCode < 400) ? 0 : 1)})"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+
+volumes:
+  redis-data:
+    driver: local
+
+networks:
+  traefik-public:
+    external: true
+  5200edu-network:
+    external: true

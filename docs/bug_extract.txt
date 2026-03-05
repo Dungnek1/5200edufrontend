@@ -1,0 +1,66 @@
+=== Sheet: student ===
+    Unnamed: 0  Hình ảnh                                                Tên lỗi                              Steps Tester    Bộ phận Người xử lí Trạng thái Up git  Ghi chú Tester check  Hình ảnh   Bug recheck  Note
+0          NaN       NaN                   Lỗi hiển thị page Hồ sơ của học viên                                NaN   Khánh  Frontend      Trương   Đã xử lí  Đã up  vẫn bug     Test lại        NaN          NaN   NaN
+1          NaN       NaN                        Btn Save changes chưa hoạt động                                NaN   Khánh  Frontend         NaN        NaN    NaN      NaN          NaN        NaN          NaN   NaN
+2          NaN       NaN                               Btn Noti chưa hoạt động                                 NaN   Khánh  Frontend         NaN        NaN    NaN      NaN          NaN        NaN          NaN   NaN
+3          NaN       NaN                                       Lỗi UI hiển thị                 Xem lại khoảng cách   Khánh  Frontend         NaN        NaN    NaN      NaN          NaN        NaN          NaN   NaN
+4          NaN       NaN                         Chưa tiến hành thanh toán được                                NaN   Khánh  Frontend      Trương   Đã xử lí    NaN      NaN          NaN        NaN          NaN   NaN
+5          NaN       NaN                               Sai content so với figma                                NaN   Khánh  Frontend      Trương   Đã xử lí    NaN      NaN          NaN        NaN          NaN   NaN
+6          NaN       NaN                                 UI hiển thị khác figma                                NaN   Khánh  Frontend      Trương   Đã xử lí    NaN      NaN          NaN        NaN          NaN   NaN
+7          NaN       NaN                               Icon hiển thị khác figma                                NaN   Khánh  Frontend      Trương   Đã xử lí    NaN      NaN          NaN        NaN          NaN   NaN
+8          NaN       NaN                                Hình ảnh quá mờ, vỡ nét                                NaN   Khánh  Frontend         NaN        NaN    NaN      NaN          NaN        NaN          NaN   NaN
+9          NaN       NaN                                 Mã OTP chưa hoạt động   vào gói chiến lược -> nhận tư vấn   Khánh  Frontend      Trương   Đã xử lí    NaN      NaN          NaN        NaN          NaN   NaN
+10         NaN       NaN               Lỗi chưa thao tác đăng kí tài khoản được                                NaN   Khánh  Frontend      Trương   Đã xử lí    NaN      NaN          NaN        NaN          NaN   NaN
+11         NaN       NaN                        Lỗi btn Quay lại chưa hoạt động                                NaN   Khánh  Frontend         NaN        NaN    NaN      NaN          NaN        NaN          NaN   NaN
+12         NaN       NaN               Lỗi khi nhấp vào link chính sách bảo mật                                NaN   Khánh  Frontend         NaN        NaN    NaN      NaN          NaN        NaN          NaN   NaN
+13         NaN       NaN               Lỗi dịch btn khi chọn ngôn ngữ tiếng anh                                NaN   Khánh  Frontend         NaN        NaN    NaN      NaN          NaN        NaN          NaN   NaN
+14         NaN       NaN               Lỗi khi click vào link đăng nhập tại đây                                NaN   Khánh  Frontend         NaN        NaN    NaN      NaN          NaN        NaN          NaN   NaN
+15         NaN       NaN  Ngôn ngữ tiếng việt nhưng hiển thị cảnh báo tiếng anh                                NaN   Khánh  Frontend         NaN        NaN    NaN      NaN          NaN        NaN          NaN   NaN
+16         NaN       NaN                         Btn Nhận tư vấn chưa hoạt động                                NaN   Khánh  Frontend         NaN        NaN    NaN      NaN          NaN        NaN          NaN   NaN
+17         NaN       NaN               Btn Tham gia cùng đội ngũ chưa hoạt động                                NaN   Khánh  Frontend         NaN        NaN    NaN      NaN          NaN        NaN          NaN   NaN
+18         NaN       NaN                    Btn Bắt đầu khóa học chưa hoạt động                                NaN   Khánh  Frontend         NaN        NaN    NaN      NaN          NaN        NaN          NaN   NaN
+19         NaN       NaN                        Btn Đăng kí ngay chưa hoạt động                                NaN   Khánh  Frontend         NaN        NaN    NaN      NaN          NaN        NaN          NaN   NaN
+20         NaN       NaN              Lỗi dịch ngôn ngữ khi chọn sang tiếng anh                                NaN   Khánh  Frontend         NaN        NaN    NaN      NaN          NaN        NaN          NaN   NaN
+21         NaN       NaN                         Hình ảnh màu khác so với figma                                NaN   Khánh  Frontend      Trương   Đã xử lí    NaN      NaN          NaN        NaN          NaN   NaN
+22         NaN       NaN               Landing page thiếu đánh giá của học viên                                NaN   Khánh  Frontend         NaN        NaN    NaN      NaN          NaN        NaN          NaN   NaN
+23         NaN       NaN                   Lỗi sai icon và sai màu so với figma                                NaN   Khánh  Frontend         NaN        NaN    NaN      NaN          NaN        NaN          NaN   NaN
+24         NaN       NaN          Lỗi hiển thị UI ( phần trên hình ảnh bị cắt )                                NaN   Khánh  Frontend         NaN        NaN    NaN      NaN          NaN        NaN          NaN   NaN
+25         NaN       NaN             Thiếu đánh giá của học viên ( trong ds GV)                                NaN   Khánh  Frontend         NaN        NaN    NaN      NaN          NaN        NaN          NaN   NaN
+26         NaN       NaN                              Lỗi sai text so với figma                                NaN   Khánh  Frontend         NaN        NaN    NaN      NaN          NaN        NaN          NaN   NaN
+27         NaN       NaN                                                    NaN                                NaN   Khánh  Frontend         NaN        NaN    NaN      NaN          NaN        NaN          NaN   NaN
+28         NaN       NaN                                                    NaN                                NaN   Khánh  Frontend         NaN        NaN    NaN      NaN          NaN        NaN          NaN   NaN
+29         NaN       NaN                                                    NaN                                NaN   Khánh  Frontend         NaN        NaN    NaN      NaN          NaN        NaN          NaN   NaN
+30         NaN       NaN                                                    NaN                                NaN   Khánh  Frontend         NaN        NaN    NaN      NaN          NaN        NaN          NaN   NaN
+31         NaN       NaN                                                    NaN                                NaN   Khánh  Frontend         NaN        NaN    NaN      NaN          NaN        NaN          NaN   NaN
+32         NaN       NaN                                                    NaN                                NaN   Khánh  Frontend         NaN        NaN    NaN      NaN          NaN        NaN          NaN   NaN
+33         NaN       NaN                                                    NaN                                NaN   Khánh  Frontend         NaN        NaN    NaN      NaN          NaN        NaN          NaN   NaN
+34         NaN       NaN                                                    NaN                                NaN   Khánh  Frontend         NaN        NaN    NaN      NaN          NaN        NaN          NaN   NaN
+35         NaN       NaN                                                    NaN                                NaN   Khánh  Frontend         NaN        NaN    NaN      NaN          NaN        NaN          NaN   NaN
+36         NaN       NaN                                                    NaN                                NaN   Khánh  Frontend         NaN        NaN    NaN      NaN          NaN        NaN          NaN   NaN
+37         NaN       NaN                                                    NaN                                NaN   Khánh  Frontend         NaN        NaN    NaN      NaN          NaN        NaN          NaN   NaN
+38         NaN       NaN                                                    NaN                                NaN   Khánh  Frontend         NaN        NaN    NaN      NaN          NaN        NaN          NaN   NaN
+
+=== Sheet: teacher ===
+    Unnamed: 0  Hình ảnh                                                           Tên lỗi  Steps Tester    Bộ phận  Người xử lí  Trạng thái  Up git  Ghi chú  Tester check  Hình ảnh   Bug recheck  Note
+0          NaN       NaN                       Thiếu thông báo thành công khi lưu cập nhật    NaN   Khánh  Frontend          NaN         NaN     NaN      NaN           NaN        NaN          NaN   NaN
+1          NaN       NaN                       Lỗi không thao tác thêm học vấn của GV được    NaN   Khánh  Frontend          NaN         NaN     NaN      NaN           NaN        NaN          NaN   NaN
+2          NaN       NaN                                  Lỗi dịch ngôn ngữ ( tiếng việt )    NaN   Khánh  Frontend          NaN         NaN     NaN      NaN           NaN        NaN          NaN   NaN
+3          NaN       NaN                              Btn Cập nhật mật khẩu chưa hoạt động    NaN   Khánh  Frontend          NaN         NaN     NaN      NaN           NaN        NaN          NaN   NaN
+4          NaN       NaN                                      Btn Đăng xuất chưa hoạt động    NaN   Khánh  Frontend          NaN         NaN     NaN      NaN           NaN        NaN          NaN   NaN
+5          NaN       NaN       Lỗi Toggle switch không thể chuyển từ ON sang OFF khi click    NaN   Khánh  Frontend          NaN         NaN     NaN      NaN           NaN        NaN          NaN   NaN
+6          NaN       NaN                                              Lỗi UI đang bị lệch     NaN   Khánh  Frontend          NaN         NaN     NaN      NaN           NaN        NaN          NaN   NaN
+7          NaN       NaN                                             UI thiếu so với figma    NaN   Khánh  Frontend          NaN         NaN     NaN      NaN           NaN        NaN          NaN   NaN
+8          NaN       NaN                                              UI khác so với figma    NaN   Khánh  Frontend          NaN         NaN     NaN      NaN           NaN        NaN          NaN   NaN
+9          NaN       NaN                                              UI khác so với figma    NaN   Khánh  Frontend          NaN         NaN     NaN      NaN           NaN        NaN          NaN   NaN
+10         NaN       NaN                                                Lỗi dịch ngôn ngữ     NaN   Khánh  Frontend          NaN         NaN     NaN      NaN           NaN        NaN          NaN   NaN
+11         NaN       NaN                                                   Lỗi hiển thị UI    NaN   Khánh  Frontend          NaN         NaN     NaN      NaN           NaN        NaN          NaN   NaN
+12         NaN       NaN                                Btn tư vấn thiết kế chưa hoạt động    NaN   Khánh  Frontend          NaN         NaN     NaN      NaN           NaN        NaN          NaN   NaN
+13         NaN       NaN                                                     UI khác figma    NaN   Khánh  Frontend          NaN         NaN     NaN      NaN           NaN        NaN          NaN   NaN
+14         NaN       NaN                                           Btn Xóa không hoạt động    NaN   Khánh  Frontend          NaN         NaN     NaN      NaN           NaN        NaN          NaN   NaN
+15         NaN       NaN                        Không thể thao tác Preview hay Lưu bài tập    NaN   Khánh  Frontend          NaN         NaN     NaN      NaN           NaN        NaN          NaN   NaN
+16         NaN       NaN  Không thể xóa bớt câu hỏi ( trường hợp set dư số lượng câu hỏi )    NaN   Khánh  Frontend          NaN         NaN     NaN      NaN           NaN        NaN          NaN   NaN
+17         NaN       NaN                                    Chỉnh sửa khóa học trắng trang    NaN   Khánh  Frontend          NaN         NaN     NaN      NaN           NaN        NaN          NaN   NaN
+18         NaN       NaN                         Lỗi không thao tác được Icon More options    NaN   Khánh  Frontend          NaN         NaN     NaN      NaN           NaN        NaN          NaN   NaN
+19         NaN       NaN                                                       Lỗi btn xem    NaN   Khánh  Frontend          NaN         NaN     NaN      NaN           NaN        NaN          NaN   NaN
+20         NaN       NaN                                  Lỗi không thao tác mua ngay được    NaN   Khánh  Frontend          NaN         NaN     NaN      NaN           NaN        NaN          NaN   NaN
+

@@ -1,0 +1,2401 @@
+{
+  "common": {
+    "search": "Search",
+    "filter": "Filter",
+    "all": "All",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "loading": "Loading...",
+    "noData": "No data",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "confirm": "Confirm",
+    "create": "Create",
+    "update": "Update",
+    "close": "Close",
+    "open": "Open",
+    "yes": "Yes",
+    "no": "No",
+    "select": "Select",
+    "clear": "Clear",
+    "apply": "Apply",
+    "refresh": "Refresh",
+    "download": "Download",
+    "upload": "Upload",
+    "share": "Share",
+    "copy": "Copy",
+    "more": "More",
+    "less": "Less",
+    "total": "Total",
+    "minute": "min",
+    "status": "Status",
+    "active": "Active",
+    "inactive": "Inactive",
+    "completed": "Completed",
+    "pending": "Pending",
+    "rejected": "Rejected",
+    "approved": "Approved",
+    "clearAll": "Clear All",
+    "seeMore": "See more",
+    "add": "Add",
+    "optional": "Optional",
+    "characters": "characters",
+    "notifications": "Notifications",
+    "notificationsEmpty": "No notifications yet",
+    "loadingData": "Loading data...",
+    "reload": "Reload",
+    "reloadPage": "Reload page",
+    "complete": "Complete",
+    "inProgress": "In progress",
+    "about": "About",
+    "viewProfile": "View profile",
+    "viewDetails": "View details",
+    "courses": "Courses",
+    "lessons": "Lessons",
+    "students": "Students",
+    "reviews": "Reviews",
+    "experienceYears": "years of experience",
+    "completionRate": "Completion rate",
+    "packs": "Packs",
+    "averageRating": "Average rating",
+    "coursesAndPacks": "Courses & Packs",
+    "fileUpload": {
+      "browse": "Browse File",
+      "dropHere": "Choose file or drag and drop here",
+      "avatarHint": "JPG, PNG, WEBP • Up to 5MB",
+      "uploading": "Uploading..."
+    },
+    "loadingInfo": "Loading information...",
+    "loadingModules": "Loading modules..."
+  },
+  "locale": {
+    "vi": "Tiếng Việt",
+    "en": "English"
+  },
+  "event": {
+    "types": {
+      "HOITHAO": "Workshop",
+      "OFFLINE": "Offline",
+      "CONGDONG": "Community"
+    },
+    "badge": {
+      "community": "Community",
+      "seminar": "Workshop",
+      "offline": "Offline"
+    },
+    "breadcrumbCommunityEvents": "Community Events",
+    "notFound": "Event not found",
+    "writtenBy": "Written by",
+    "relatedEvents": "Related Events",
+    "noRelatedEvents": "No related events found"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "registerAccount": "Register Account",
+    "logout": "Logout",
+    "email": "Email",
+    "password": "Password",
+    "fullName": "Full Name",
+    "phone": "Phone Number",
+    "forgotPassword": "Forgot password?",
+    "loginWithGoogle": "Login with Google",
+    "registerWithGoogle": "Register with Google",
+    "alreadyHaveAccount": "Already have an account?",
+    "dontHaveAccount": "Don't have an account?",
+    "loginHere": "Login here",
+    "registerHere": "Register here",
+    "form": {
+      "username": "Username",
+      "emailPlaceholder": "Enter your email",
+      "passwordPlaceholder": "Enter password",
+      "fullNamePlaceholder": "Enter your full name",
+      "phonePlaceholder": "Enter your phone number",
+      "rememberMe": "Remember me",
+      "confirmPassword": "Confirm Password *",
+      "confirmPasswordPlaceholder": "Re-enter password",
+      "processing": "Processing...",
+      "passwordStrength": "Password strength:",
+      "passwordStrengthWeak": "Weak",
+      "passwordStrengthMedium": "Medium",
+      "passwordStrengthGood": "Good",
+      "passwordStrengthStrong": "Strong",
+      "passwordRequirements": "Password requirements:",
+      "passwordRequirementMinLength": "At least 8 characters (max 128 characters)",
+      "passwordRequirementUpperCase": "At least 1 uppercase letter (A-Z)",
+      "passwordRequirementLowerCase": "At least 1 lowercase letter (a-z)",
+      "passwordRequirementNumber": "At least 1 number (0-9)",
+      "passwordRequirementSpecialChar": "At least 1 special character (!@#$%^&*...)"
+    },
+    "messages": {
+      "loginSuccess": "Login successful",
+      "loginFailed": "Login failed",
+      "registerSuccess": "Registration successful! Please check your email for OTP code and verification token.",
+      "registerFailed": "Registration failed",
+      "otpRequired": "Please enter the OTP code sent to your email",
+      "changePasswordRequired": "Please change your password for the first time",
+      "googleAccountDetected": "This account may have been registered with Google. Please login with Google.",
+      "googleLoginSuccess": "Google login successful!",
+      "googleLoginFailed": "Google login failed. Please try again.",
+      "googleLoginError": "Google login failed. Please check the origin in Google Console.",
+      "wrongCredentials": "Incorrect username or password. Please check again.",
+      "emailNotVerified": "Please verify your email before logging in.",
+      "accountDisabled": "Account has been disabled. Please contact support.",
+      "loginTimeout": "Login is taking too long. Please try again or check your network connection."
+    },
+    "terms": {
+      "agreeWith": "I agree with",
+      "termsOfService": "Terms of Service",
+      "and": "and",
+      "privacyPolicy": "Privacy Policy"
+    },
+    "verifyEmail": {
+      "title": "Verify Email",
+      "enterOtp": "Please enter the 6-digit OTP code sent to your email",
+      "enterToken": "Please enter the verification token sent to your email",
+      "verifying": "Verifying email...",
+      "success": "Email has been verified successfully!",
+      "successRedirect": "Email verified successfully! Redirecting to login page...",
+      "failed": "Verification failed",
+      "messages": {
+        "registerSuccess": "Registration complete!"
+      },
+      "tokenLabel": "Verification Token",
+      "tokenPlaceholder": "Enter token from email",
+      "verify": "Verify",
+      "verifyButton": "Confirm",
+      "autoVerify": "verify automatically with link",
+      "or": "Or",
+      "checkEmail": "Please check your email!",
+      "emailSent": "We have sent OTP code and verification link to email:",
+      "options": "You can:",
+      "option1": "1. Click the link in the email to go to the OTP entry page",
+      "option2": "2. Or enter token and OTP in the form below",
+      "noEmail": "Didn't receive email?",
+      "resend": "Resend",
+      "resendAfter": "Resend after {seconds}s",
+      "resendEmail": "Resend verification email",
+      "resendSuccess": "Verification email resent. Please check your inbox.",
+      "resendFailed": "Failed to resend email",
+      "backToLogin": "Back to login",
+      "goToLogin": "Go to login page",
+      "invalidToken": "Please enter verification token",
+      "invalidOtp": "Please enter all 6 OTP digits",
+      "tokenInvalid": "Invalid token",
+      "tokenExpired": "Verification token has expired. Please register again or request a new verification email.",
+      "emailNotFound": "Email not found. Please register again."
+    },
+    "verifyOtp": {
+      "title": "Confirm OTP Code",
+      "enterCode": "Enter the 6-digit code sent to:",
+      "enterOtpCode": "Enter your OTP code:",
+      "emailSentMessage": "We have sent the code to email:",
+      "resendTimer": "We will resend after:",
+      "resend": "Resend",
+      "resending": "Sending...",
+      "confirm": "Confirm",
+      "verifying": "Verifying...",
+      "backToLogin": "Back to login",
+      "registerComplete": "Registration Complete",
+      "registerSuccessMessage": "Congratulations! Your account has been successfully registered",
+      "startNow": "Start Now",
+      "invalidOtpLength": "Please enter all 6 OTP digits",
+      "verifySuccess": "Verification successful!",
+      "verifyFailed": "Verification failed. Please try again.",
+      "resendSuccess": "OTP code resent!",
+      "resendFailed": "Failed to resend code",
+      "otpExpired": "OTP code has expired",
+      "otpInvalid": "OTP code is incorrect",
+      "otpInvalidAttempts": "OTP code is incorrect. {attempts} attempts remaining.",
+      "maxAttemptsReached": "You have exceeded the maximum number of attempts",
+      "resendOtp": "Please login again to receive a new OTP code",
+      "timeRemaining": "Code is valid for",
+      "expiresIn": "OTP code will expire in",
+      "resendAfter": "Resend code after:",
+      "sessionInvalid": "Invalid session. Please login again.",
+      "maxAttemptsMessage": "You have run out of attempts. Please resend OTP code.",
+      "resetPasswordTitle": "Reset Password",
+      "resetPasswordSuccess": "Password reset successfully",
+      "newPassword": "New password",
+      "confirmNewPassword": "Confirm new password",
+      "resetPassword": "Reset Password",
+      "passwordMismatch": "Passwords do not match",
+      "passwordMinLength": "Password must be at least 6 characters"
+    },
+    "forgotPasswordPage": {
+      "title": "Forgot Password",
+      "subtitle": "Enter your email to receive a verification code",
+      "emailPlaceholder": "Enter your email",
+      "submit": "Send verification code",
+      "sending": "Sending...",
+      "backToLogin": "Back to login",
+      "success": "Verification code sent to your email",
+      "failed": "Failed to send verification code. Please try again.",
+      "emailRequired": "Please enter your email"
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "explore": "Explore",
+    "courses": "Courses",
+    "teachers": "Teachers",
+    "teacherTeam": "Teacher Team",
+    "events": "Events",
+    "communityEvents": "Community Events",
+    "myCourses": "My Courses",
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "settings": "Settings",
+    "becomeTeacher": "Become a Teacher",
+    "becomeTeacherShort": "Become Teacher",
+    "language": "Language",
+    "students": "Students",
+    "ai-tools": "AI Tools",
+    "courseManagement": "Course Management",
+    "studentManagement": "Student Management",
+    "community": "Community",
+    "roleTeacher": "Teacher",
+    "roleStudent": "Student"
+  },
+  "course": {
+    "courses": "Courses",
+    "courseName": "Course Name",
+    "price": "Price",
+    "rating": "Rating",
+    "instructor": "Teacher",
+    "enroll": "Enroll",
+    "enrolled": "Enrolled",
+    "lessons": "Lessons",
+    "duration": "Duration",
+    "students": "Students",
+    "viewDetails": "View Details",
+    "continue": "Continue",
+    "startLearning": "Start Learning",
+    "courseContent": "Course Content",
+    "module": "Module",
+    "noModules": "No course content available",
+    "enrollToView": "Please enroll to view this content",
+    "noDocuments": "No documents available",
+    "noReviews": "No reviews yet",
+    "readMore": "Read more",
+    "buyNow": "Buy Now",
+    "trial": "Try course",
+    "startLearningNow": "Start Learning Now",
+    "videoPreview": "Video Preview",
+    "studentReviews": "Student Reviews",
+    "defaultStudentName": "Student",
+    "defaultCourseName": "Course Name",
+    "reviewsCount": "{count} reviews",
+    "relatedCourses": "Related Courses",
+    "free": "Free",
+    "updating": "Updating",
+    "defaultInstructor": "Instructor",
+    "defaultCategory": "Category",
+    "defaultTitle": "Restaurant and",
+    "defaultInstructorName": "Instructor name here",
+    "levels": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+    "loginToPurchase": "Please login to purchase course",
+    "studentOnly": "Only students (STUDENT) can purchase courses",
+    "updatingMinFinish": "Updating minimum time...",
+    "updateMinFinishSuccess": "Successfully updated minimum time",
+    "updateMinFinishError": "Failed to update minimum time",
+    "updatingTargetSection": "Updating target section...",
+    "updateTargetSectionSuccess": "Successfully updated target section",
+    "updateTargetSectionError": "Failed to update target section",
+    "targetModules": "Target Modules",
+    "targetModulePlaceholder": "Enter target module ID and press Enter",
+    "minTimePlaceholder": "Time (minutes)",
+    "modulesAndAssignments": "Modules & Assignments",
+    "trialLockedMessage": "This lesson is only available to enrolled students",
+    "enrollCta": "Enroll in course",
+    "lessonGoals": "Lesson goals",
+    "overview": "Overview",
+    "assignment": "Assignment",
+    "documentCompleted": "Document marked as completed",
+    "completed": "Completed"
+  },
+  "CourseDetail": {
+    "description": "Course Description",
+    "learningPoints": "You will learn about:"
+  },
+  "lesson": {
+    "notEnrolled": "You are not enrolled in this course",
+    "loadError": "Failed to load lesson content",
+    "completed": "Lesson marked as complete",
+    "quizSubmitted": "Quiz submitted successfully",
+    "quizSubmitError": "Failed to submit quiz. Please try again",
+    "overview": "Overview",
+    "assignment": "Assignment",
+    "course": "Course",
+    "previous": "Previous",
+    "next": "Next",
+    "noVideo": "Video not available",
+    "videoNotSupported": "Your browser does not support video playback",
+    "noDescription": "Lesson content will be displayed here.",
+    "learningOutcomes": "Learning Outcomes"
+  },
+  "quiz": {
+    "passed": "Congratulations! You passed",
+    "failed": "Did not meet requirements",
+    "points": "points",
+    "percentage": "Score",
+    "minScore": "Minimum score",
+    "reviewAnswers": "Review answers",
+    "question": "Question",
+    "correct": "Correct",
+    "yourAnswer": "Your answer",
+    "explanation": "Explanation",
+    "loading": "Loading...",
+    "submitSuccess": "Submitted successfully",
+    "submitError": "Submission failed",
+    "submitErrorGeneric": "An error occurred while submitting",
+    "submitting": "Submitting...",
+    "submit": "Submit",
+    "unansweredQuestions": "You have {count} unanswered questions. Are you sure you want to submit?",
+    "completed": "Completed",
+    "questionCount": "Questions",
+    "questionPrompt": "Question content",
+    "answerOption": "Answer {number}",
+    "dragAndDropHere": "Select file or drag and drop here",
+    "essayTitle": "Essay Question",
+    "essayAttachmentLabel": "Attachment (optional)",
+    "uploadEssayFile": "Upload file",
+    "changeEssayFile": "Change file",
+    "essayContentLabel": "Notes",
+    "essayPlaceholder": "Enter description",
+    "essayFileUploaded": "File uploaded successfully",
+    "essayFileUploadError": "Unable to upload file. Please try again",
+    "viewEssayAttachment": "View attachment",
+    "fileTypeError": "Only PDF, DOC, DOCX, TXT, XLSX, CSV, MP4, MOV files are accepted",
+    "fileSizeError": "File size must not exceed 50MB",
+    "create": {
+      "defaultTitle": "Theory quiz",
+      "pageTitle": "Create quiz",
+      "pageTitleEdit": "Edit quiz",
+      "addAnswer": "Add answer",
+      "addQuestion": "Add question",
+      "gradingTitle": "Grading criteria",
+      "gradingDesc1": "This threshold determines whether learners pass the theory quiz.",
+      "gradingDesc2": "Learners must reach at least the number of correct questions below to be considered Completed.",
+      "passScoreLabel": "Passing score",
+      "passScoreSuffix": "/{total} questions",
+      "preview": "Preview",
+      "saving": "Saving...",
+      "save": "Save quiz",
+      "update": "Update quiz",
+      "createSuccess": "Quiz created successfully!",
+      "updateSuccess": "Quiz updated successfully!",
+      "genericError": "Unable to create quiz",
+      "errors": {
+        "minQuestion": "There must be at least 1 question",
+        "minOptionsGlobal": "There must be at least 2 options",
+        "titleRequired": "Please enter a quiz title",
+        "questionRequired": "Question {index}: Please enter the question content",
+        "minOptions": "Question {index}: There must be at least 2 options",
+        "mustChooseCorrect": "Question {index}: You must select a correct answer",
+        "optionEmpty": "Question {index}: Option {label} cannot be empty",
+        "essayPromptRequired": "Please enter the essay question content"
+      },
+      "previewModal": {
+        "title": "Preview theory quiz",
+        "theoryTitle": "Theory quiz",
+        "questionLabel": "Question {number}",
+        "essayTitle": "Essay question",
+        "essayAnswerPlaceholder": "Enter your answer...",
+        "essayWordCount": "Word count: {min} - {max}",
+        "done": "Done"
+      }
+    }
+  },
+  "teacher": {
+    "expertTitle": "Expert F&B Automation",
+    "expertDesc": "Leading expert in restaurant automation",
+    "topTeacher": "Top Teacher 2024",
+    "topTeacherDesc": "Best instructor of 2024",
+    "studentsAchievement": "15K+ Students",
+    "studentsAchievementDesc": "More than 15,000 successful students",
+    "completionAchievement": "92% Completion Rate",
+    "completionAchievementDesc": "High course completion rate",
+    "bio1": "With over {years} years of experience in F&B and marketing automation, {name} has helped thousands of restaurants and cafes optimize operations, grow revenue, and improve customer experience through smart technology solutions.",
+    "bio2": "My expertise includes: AI in restaurants, Automation with n8n, Marketing Automation, Data Analytics, and modern Digital Marketing tools.",
+    "bio3": "Having worked with major brands like Highlands Coffee, The Coffee House, and many other F&B chains, I bring practical knowledge and valuable lessons to students.",
+    "contact": "Contact instructor",
+    "stats": "Teacher statistics",
+    "achievements": "Achievements and certificates",
+    "expertise": "Expertise",
+    "otherPacks": "Other packs from this instructor",
+    "loadingCourses": "Loading courses...",
+    "loadingReviews": "Loading reviews...",
+    "teachers": "Teachers",
+    "instructors": "Teachers",
+    "teacher": "Teacher",
+    "specialties": "Specialties",
+    "bio": "Bio",
+    "experience": "Experience",
+    "rating": "Rating",
+    "students": {
+      "title": "Student Management",
+      "overview": "Overview",
+      "stats": {
+        "totalStudents": "Total Students",
+        "completionRate": "Completion Rate",
+        "pendingGrading": "Graded"
+      },
+      "tabs": {
+        "students": "Students",
+        "assignments": "Assignments"
+      },
+      "listTitle": "Student List",
+      "assignmentsListTitle": "Assignments List",
+      "searchPlaceholder": "Search students...",
+      "searchPlaceholderAssignments": "Search assignments...",
+      "filters": {
+        "all": "All",
+        "completed": "Completed",
+        "inProgress": "In progress",
+        "notStarted": "Not started",
+        "progressHighToLow": "Progress High > Low",
+        "progressLowToHigh": "Progress Low > High",
+        "pendingHighToLow": "Pending High > Low",
+        "pendingLowToHigh": "Pending Low > High"
+      },
+      "table": {
+        "student": "Student",
+        "studentName": "Student Name",
+        "email": "Email",
+        "courses": "Courses",
+        "progress": "Progress",
+        "studying": "Studying",
+        "courseName": "Course Name",
+        "assignment": "Assignment",
+        "actions": "Actions"
+      },
+      "noStudents": "No students",
+      "loading": "Loading...",
+      "viewDetail": "View Detail",
+      "modal": {
+        "title": "Student Information",
+        "studying": "Studying",
+        "modules": "Modules",
+        "assignments": "Assignments",
+        "overallProgress": "Overall Progress",
+        "assignmentsLabel": "Assignments",
+        "learningProgress": "Learning Progress",
+        "completed": "Completed",
+        "pendingGrading": "Pending Grading",
+        "inProgress": "In Progress",
+        "notStarted": "Not Started",
+        "view": "View",
+        "grade": "Grade",
+        "close": "Close",
+        "gradeLatest": "Grade Latest Assignment"
+      }
+    },
+    "assignments": {
+      "table": {
+        "assignmentTitle": "Assignment Title",
+        "module": "Module",
+        "courseName": "Course Name",
+        "totalSubmitted": "Total Submitted",
+        "pendingGrading": "Pending Grading",
+        "gradeAction": "Grade"
+      }
+    },
+    "fallbackStudentName": "Student",
+    "fallbackCourseTitle": "Course",
+    "listing": {
+      "educationAndCertificates": "Education & Certificates",
+      "trainingCertificates": "Training Certificates"
+    },
+    "grading": {
+      "commentLabel": "Instructor comment",
+      "commentPlaceholder": "Enter detailed feedback on the student's work...",
+      "allGradedPrefix": "You have finished grading all submissions for ",
+      "allGradedInCourse": " in course "
+    },
+    "viewProfile": "View Profile",
+    "dashboard": {
+      "title": "Dashboard",
+      "hero": {
+        "badge": "Trusted by 1,000+ Instructors",
+        "heading": "Where knowledge becomes\nan educational asset",
+        "description": "The platform, AI tools and student ecosystem for Instructors to build, operate and grow courses as a transparent and sustainable education business.",
+        "feature1": "Measurable revenue per course",
+        "feature2": "AI tools serving content and operations directly",
+        "feature3": "Student data, progress and reviews displayed clearly, with context",
+        "cta": "Start building your course",
+        "stat1Value": "1,200+",
+        "stat1Label": "Entrepreneurs",
+        "stat1Sub": "currently online",
+        "stat2Label": "Battle-tested instructor team",
+        "stat2Sub": "High expertise, multi-domain",
+        "stat3Label": "+253 great reviews",
+        "stat3Sub": "from Instructors using the platform"
+      },
+      "features": {
+        "title": "We understand what matters to Teachers",
+        "subtitle": "Tools and features designed to help you succeed",
+        "feature1": {
+          "title": "Easy Course Creation",
+          "description": "Powerful editor helps you create professional content"
+        },
+        "feature2": {
+          "title": "Detailed Analytics",
+          "description": "Track course performance and understand your students"
+        },
+        "feature3": {
+          "title": "Secure Payments",
+          "description": "Receive payments quickly and securely from students"
+        }
+      },
+      "trust": {
+        "title": "Trust Built from How We Operate",
+        "description": "We believe Teachers can only partner with peace of mind when the platform is designed transparently, consistently and responsibly for long-term value.",
+        "card1": {
+          "title": "Long-term orientation, not following trends",
+          "description": "We don't build platforms for short-term campaigns. Every product decision is aimed at helping Teachers accumulate sustainable value over time."
+        },
+        "card2": {
+          "title": "AI tools serve real value",
+          "description": "AI tools are used directly in SME operations, ensuring teaching content is always connected to practice."
+        },
+        "card3": {
+          "title": "Transparency is a principle, not a feature",
+          "description": "All data related to students, progress and revenue is displayed clearly, with context and can be verified"
+        },
+        "card4": {
+          "title": "Respect Teacher ownership",
+          "description": "Teachers have full rights to content, teaching methods and course development. The platform plays a supporting infrastructure and tool role, without interfering with expertise."
+        }
+      },
+      "aiTools": {
+        "title": "AI Tools Suite to Help Teachers Enhance Teaching Expertise",
+        "description": "We provide AI support tools so teachers can not only teach better, but also understand more deeply about real-world problems, data and industry trends.",
+        "design_consultation": "Design Consultation",
+        "searchPlaceholder": "Search AI tools, prompts, templates..."
+      },
+      "testimonials": {
+        "title": "What Teachers Say After Working with the Platform",
+        "description": "The following shares come from real experiences in building, operating and developing courses on the platform.",
+        "items": [
+          {
+            "name": "Tran Thi Mai",
+            "role": "Trainer & F&B Consultant",
+            "comment": "Classify feels like a real workspace, not just a place to post lectures. I can track the development of each course and improve content based on concrete data."
+          },
+          {
+            "name": "Le Van Son",
+            "role": "AI & F&B Operations Instructor",
+            "comment": "The AI tools significantly reduce the time I spend on repetitive tasks like tracking progress or compiling assignments. This gives me more time to focus on content quality and student interaction."
+          },
+          {
+            "name": "Pham Thu Ha",
+            "role": "Management & SME Strategy Instructor",
+            "comment": "I appreciate how Classify presents data. Everything from students, progress to revenue is clear and easy to understand, giving me confidence to view teaching as a long-term activity."
+          },
+          {
+            "name": "Nguyen Minh Tuan",
+            "role": "Marketing & Branding Instructor",
+            "comment": "The platform helps me manage courses much more effectively. Clear dashboard, detailed data, and especially I can interact directly with students in a professional manner."
+          },
+          {
+            "name": "Hoang Thi Lan",
+            "role": "Finance & Accounting Instructor",
+            "comment": "I love how the system automates many complex tasks. From grading to tracking student progress, everything is handled intelligently and accurately."
+          },
+          {
+            "name": "Dang Quoc Huy",
+            "role": "Technology & Programming Instructor",
+            "comment": "The student analytics tool is very detailed. I can know exactly which students are struggling where and adjust my teaching methods accordingly."
+          },
+          {
+            "name": "Vo Thi Huong",
+            "role": "Design & Creative Instructor",
+            "comment": "Beautiful interface, easy to use and very professional. My students are also very satisfied with the learning experience on this platform."
+          },
+          {
+            "name": "Bui Van Thanh",
+            "role": "Business Administration Instructor",
+            "comment": "The revenue reporting system is transparent and detailed. I always know the financial situation and can plan long-term course development."
+          },
+          {
+            "name": "Ly Thanh Nga",
+            "role": "Foreign Language & Communication Instructor",
+            "comment": "The direct interaction feature with students is excellent. I can answer questions, give assignment feedback and track each person's learning progress easily."
+          },
+          {
+            "name": "Phan Duc Anh",
+            "role": "Entrepreneurship & Investment Instructor",
+            "comment": "This platform helps me build my personal brand effectively. From the profile page to course presentation, everything is very professional and attractive."
+          },
+          {
+            "name": "Truong Thi Mai Anh",
+            "role": "Personal Development Instructor",
+            "comment": "The AI content creation support tools are very useful. I save a lot of time in preparing lectures and learning materials."
+          },
+          {
+            "name": "Duong Van Long",
+            "role": "Real Estate & Investment Instructor",
+            "comment": "The student management system is very powerful. I can segment, tag and track each student group in detail and systematically."
+          },
+          {
+            "name": "Ho Thi Phuong",
+            "role": "Health & Nutrition Instructor",
+            "comment": "I value the quiz and assignment creation features. Students can self-test their knowledge and I can easily assess their learning effectiveness."
+          },
+          {
+            "name": "Ngo Minh Duc",
+            "role": "E-commerce & Sales Instructor",
+            "comment": "The platform helps me scale courses easily. From tens to hundreds of students, the system still runs smoothly and stably."
+          },
+          {
+            "name": "Vu Thi Thanh",
+            "role": "Art & Photography Instructor",
+            "comment": "The media upload and management features are very convenient. I can share high-quality images and videos without worrying about storage or loading speed."
+          }
+        ]
+      },
+      "cta": {
+        "title": "We seriously partner with Teachers",
+        "description": "If you want to build a sustainable educational asset, {platform} is designed to support you in doing that.",
+        "button": "Start Building Course"
+      },
+      "faq": {
+        "support": "Support",
+        "title": "FAQs",
+        "description": "Find answers to frequently asked questions about becoming a teacher on the 5200AI platform. If you have other questions, please don't hesitate to contact us.",
+        "q1": "How do I register to become a teacher on 5200AI?",
+        "a1": "You can register to become a teacher by clicking the \"Apply Now\" button on this page or visiting the registration page and selecting the \"Teacher\" role. After filling in your basic information and verifying your email, you will be redirected to the teacher dashboard to start creating your first course.",
+        "q2": "What are the requirements to become a teacher on 5200AI?",
+        "a2": "5200AI does not require specific degrees, but you need to have professional knowledge and practical experience in the field you want to teach. We encourage teachers to have at least 2-3 years of work experience or previous teaching experience. Most importantly, you should have a passion for sharing knowledge and be committed to creating quality content for students.",
+        "q3": "How much will I earn from my courses?",
+        "a3": "Teachers have the right to set their own course prices. Revenue is shared transparently and you can track details in your dashboard. The payment system is automated and you can withdraw funds according to the agreed cycle. All information about revenue, students, and payments is clearly displayed in the financial management section.",
+        "q4": "What AI tools are available to support teachers?",
+        "a4": "5200AI provides a diverse suite of AI tools to support teachers in content creation, course management, and student interaction. Tools include: lecture writing assistance, automatic quiz and assignment generation, student progress analysis, content improvement suggestions based on data, and automation of repetitive tasks. You can also request custom tool design tailored to your teaching methods.",
+        "q5": "Do I own the content of my courses?",
+        "a5": "Absolutely. Teachers retain full intellectual property rights to their course content. 5200AI only serves as a platform providing infrastructure and support tools. You have the right to decide on teaching methods, course development approaches, and can remove courses from the platform at any time. We are committed to respecting teacher ownership.",
+        "q6": "How can I get support when I encounter issues?",
+        "a6": "You can contact the 5200AI support team through multiple channels: support email, online chat in the dashboard, or schedule a consultation for custom teaching tool design. We also provide detailed documentation and video tutorials to help you get familiar with the platform. The support team is always ready to answer all your questions."
+      },
+      "weUnderstand": {
+        "title": "We understand what matters to Teachers",
+        "description": "When building 5200AI, we don't focus on content quantity, but on the ability to help Teachers define their value and develop sustainably.",
+        "card1": {
+          "title": "You don't build everything alone",
+          "description": "5200AI provides a ready-made student ecosystem and AI-supported resources, so you can focus on content and learning experience, instead of worrying about operations."
+        },
+        "card2": {
+          "title": "Income needs to be measured transparently and systematically",
+          "description": "Track revenue by course and over time, with transparent and easy-to-understand status so you always know the value you are creating"
+        },
+        "card3": {
+          "title": "Data serves your decisions",
+          "description": "Information about students, learning progress, evaluations and revenue is displayed consistently, helping you understand the actual situation and make more confident decisions."
+        }
+      },
+      "customTools": {
+        "title1": "Design teaching tools",
+        "title2": "based on needs",
+        "desc1": "5200AI supports designing and adjusting teaching tools",
+        "desc2": "based on needs, methods and real-world context",
+        "desc3": "of each Teacher.",
+        "button": "Design Consultation"
+      }
+    },
+    "courses": {
+      "title": "Course Management",
+      "createNew": "Create New Course",
+      "searchPlaceholder": "Search courses...",
+      "filterAll": "All",
+      "filterPublished": "Published",
+      "filterDraft": "Draft",
+      "filterHidden": "Hidden",
+      "banner": {
+        "title": "Design teaching tools based on needs",
+        "description": "5200AI supports designing and adjusting teaching tools based on the needs, methods and practical context of each Instructor.",
+        "designConsultation": "Design Consultation",
+        "designConsultationMessage": "Design consultation feature is under development"
+      },
+      "overview": "Overview",
+      "stats": {
+        "totalCourses": "Total Courses",
+        "totalStudents": "Total Students",
+        "revenueThisMonth": "Revenue This Month",
+        "averageRating": "Average Rating"
+      },
+      "yourCourses": "Your Courses",
+      "comingSoon": "Coming Soon",
+      "filters": {
+        "all": "All",
+        "published": "Published",
+        "draft": "Unpublished",
+        "hidden": "Hidden"
+      },
+      "card": {
+        "published": "Published",
+        "free": "Free",
+        "million": "million",
+        "completion": "completed",
+        "edit": "Edit"
+      },
+      "empty": {
+        "title": "No courses yet",
+        "noResults": "No courses found matching the filter",
+        "getStarted": "Start your teaching journey today"
+      },
+      "actions": {
+        "publish": "Publish",
+        "unpublish": "Unpublish",
+        "hide": "Hide",
+        "delete": "Delete",
+        "publishSuccess": "Course published successfully",
+        "publishFailed": "Failed to publish course",
+        "unpublishSuccess": "Course unpublished successfully",
+        "unpublishFailed": "Failed to unpublish course",
+        "hideSuccess": "Course hidden successfully",
+        "hideFailed": "Failed to hide course",
+        "deleteConfirm": "Are you sure you want to delete this course?",
+        "deleteSuccess": "Course deleted successfully",
+        "deleteFailed": "Failed to delete course"
+      },
+      "errors": {
+        "fetchFailed": "Unable to load course list"
+      },
+      "create": {
+        "success": "Course info created successfully!",
+        "successNoThumb": "Course created but thumbnail upload failed",
+        "failed": "Unable to create course",
+        "categoriesEmpty": "No categories found. Please contact admin to create categories.",
+        "categoriesLoadFailed": "Unable to load categories"
+      },
+      "createInfo": {
+        "stepInfo": "Course Information",
+        "stepContent": "Modules & Assignments",
+        "stepPreview": "Preview",
+        "sectionTitle": "Course Information",
+        "courseName": "Course Name",
+        "courseDescription": "Course Description",
+        "uploadThumbnail": "Upload Thumbnail",
+        "uploadImage": "Upload Image",
+        "thumbnailHint": "JPEG, JPG, PNG format up to 10MB, recommended size 370 x 200 pixels",
+        "courseValue": "Course Value",
+        "learningOutcomes": "What students will learn",
+        "category": "Category",
+        "language": "Language",
+        "reset": "Reset",
+        "charCount": "{current}/500"
+      },
+      "detail": {
+        "draft": "Draft",
+        "minutes": "minutes",
+        "modules": "Modules",
+        "lessons": "Lessons",
+        "students": "students",
+        "completed": "completed",
+        "updateCourse": "Update Course",
+        "learningOutcomes": "Learning Outcomes",
+        "engagement": {
+          "title": "Student Engagement",
+          "newStudents": "New Students",
+          "progressGrowth": "Progress Growth",
+          "completed": "Completed",
+          "inProgress": "In Progress",
+          "notStarted": "Not Started",
+          "error": "Unable to load statistics"
+        }
+      },
+      "edit": {
+        "title": "Edit Course",
+        "description": "Update your course information",
+        "tabs": {
+          "basic": "Basic Information",
+          "pricing": "Pricing",
+          "tags": "Tags",
+          "coupons": "Coupons"
+        },
+        "fields": {
+          "title": "Course Title",
+          "subtitle": "Subtitle",
+          "description": "Course Description",
+          "thumbnail": "Thumbnail Image",
+          "outcomes": "What Students Will Learn",
+          "category": "Category",
+          "language": "Language",
+          "level": "Level",
+          "price": "Course Price (VND)",
+          "originPrice": "Original Price (VND)",
+          "tags": "Tags",
+          "createCoupon": "Create New Coupon",
+          "availableCoupons": "Available Coupons"
+        },
+        "placeholders": {
+          "title": "Enter course title",
+          "subtitle": "Enter subtitle (optional)",
+          "description": "Enter course description",
+          "outcomes": "Enter learning outcome (Press Enter to add)",
+          "category": "Select category",
+          "tagSearch": "Search or add tags",
+          "couponCode": "Coupon code (e.g. SAVE20)",
+          "discount": "% Discount"
+        },
+        "labels": {
+          "changeThumbnail": "Change thumbnail",
+          "uploadThumbnail": "Upload image",
+          "thumbnailHint": "JPEG, JPG, PNG up to 10MB, recommended size 370x200px",
+          "noCoupons": "No coupons available",
+          "discount": "discount",
+          "thumbnailAlt": "Course thumbnail"
+        },
+        "languages": {
+          "vietnamese": "Vietnamese",
+          "english": "English",
+          "japanese": "Japanese"
+        },
+        "levels": {
+          "beginner": "Beginner",
+          "intermediate": "Intermediate",
+          "advanced": "Advanced"
+        },
+        "buttons": {
+          "cancel": "Cancel",
+          "save": "Save Changes",
+          "saving": "Saving...",
+          "create": "Create",
+          "assign": "Assign",
+          "next": "Next",
+          "processing": "Processing...",
+          "loadingCategories": "Loading...",
+          "selectCategory": "Select category",
+          "selectLanguage": "Select language"
+        },
+        "errors": {
+          "titleRequired": "Please enter course title",
+          "descriptionRequired": "Please enter description",
+          "categoryRequired": "Please select category",
+          "loadCategoriesFailed": "Unable to load categories",
+          "updateFailed": "Unable to update course",
+          "couponInvalid": "Please enter valid coupon code and discount percentage",
+          "couponCreateFailed": "Unable to create coupon",
+          "couponAssignFailed": "Unable to assign coupon"
+        },
+        "warnings": {
+          "thumbnailUploadFailed": "Update successful but unable to upload image"
+        },
+        "success": {
+          "courseUpdated": "Course updated successfully!",
+          "couponCreated": "Coupon created successfully!",
+          "couponAssigned": "Coupon assigned successfully!"
+        }
+      },
+      "table": {
+        "courseName": "Course Name",
+        "students": "Students",
+        "revenue": "Revenue",
+        "rating": "Rating",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "noCourses": "No courses yet",
+      "createFirst": "Create your first course",
+      "featuredCourses": "Featured Courses"
+    },
+    "settings": {
+      "title": "Account",
+      "tabs": {
+        "profile": "Profile",
+        "security": "Account & Security",
+        "notifications": "Notifications",
+        "payment": "Payment"
+      },
+      "profile": {
+        "personalProfile": "Personal Profile",
+        "previewSubtitle": "Information about yourself",
+        "title": "Title",
+        "subtitle": "Manage your personal information and profile",
+        "basicInfo": "Basic Information",
+        "update": "Update",
+        "avatar": "Avatar",
+        "uploadAvatar": "Upload Avatar",
+        "fullName": "Full Name",
+        "email": "Email",
+        "phone": "Phone Number",
+        "bio": "Bio",
+        "bioPlaceholder": "Tell students about your background and teaching philosophy",
+        "professionalInfo": "Professional Information",
+        "titlePlaceholder": "e.g. Senior Backend Instructor",
+        "yearsExperience": "Years of Experience",
+        "yearsExperiencePlaceholder": "10",
+        "education": "Education",
+        "educationSchoolLabel": "School name",
+        "educationDegreeLabel": "Degree",
+        "addEducation": "Add education",
+        "certificates": "Certificates",
+        "certificateNameLabel": "Certificate name",
+        "certificateImageLabel": "Upload certificate image (optional)",
+        "certificateImagePlaceholder": "JPEG, JPG, PNG up to 10MB",
+        "certificateChooseFile": "Choose file",
+        "addCertificate": "Add certificate",
+        "socialLinks": "Social Links",
+        "addSocialLink": "Add Social Link",
+        "removeLink": "Remove",
+        "platforms": {
+          "FACEBOOK": "Facebook",
+          "X": "X (Twitter)",
+          "YOUTUBE": "YouTube",
+          "TIKTOK": "TikTok",
+          "LINKEDIN": "LinkedIn",
+          "WEBSITE": "Website",
+          "OTHER": "Other"
+        },
+        "teachingImages": "Teaching Images",
+        "teachingImagesPlaceholder": "JPEG, JPG, PNG up to 10MB",
+        "uploading": "Uploading...",
+        "save": "Save Changes",
+        "backToPreview": "View profile"
+      },
+      "security": {
+        "title": "Account & Security",
+        "subtitle": "Manage password and account security",
+        "changePassword": "Change Password",
+        "currentPassword": "Current Password",
+        "newPassword": "New Password",
+        "confirmPassword": "Confirm Password",
+        "enterCurrentPassword": "Please enter current and new password",
+        "passwordMinLength": "New password must be at least 6 characters",
+        "passwordMismatch": "New password does not match confirmation",
+        "updatePassword": "Update Password",
+        "updatingPassword": "Updating...",
+        "passwordChangeError": "Unable to change password. Please check your current password.",
+        "connectedDevices": "Connected Devices",
+        "device": "Device",
+        "location": "Location",
+        "lastActive": "Last Active",
+        "logoutCurrent": "Logout this session",
+        "logoutAll": "Logout All Devices",
+        "loggingOut": "Logging out...",
+        "logoutError": "Failed to logout. Please try again.",
+        "forceChangeTitle": "Force Password Change",
+        "forceChangeMessage": "This is your first time logging in. Please change your password to continue using the system."
+      },
+      "notifications": {
+        "title": "Notifications",
+        "subtitle": "Manage your notification settings",
+        "studentSubmissionTitle": "Student submissions",
+        "studentSubmissionDesc": "When students submit assignments in your courses",
+        "pendingGradingTitle": "Assignments pending grading",
+        "pendingGradingDesc": "Daily summary of assignments waiting for your review",
+        "courseCompletionTitle": "Course completion notifications",
+        "courseCompletionDesc": "When students complete one of your courses",
+        "channelEmail": "Email",
+        "channelInApp": "In-app",
+        "loadError": "Unable to load notification settings",
+        "updateError": "Unable to update notification settings"
+      },
+      "payment": {
+        "title": "Payment & Earnings",
+        "subtitle": "Track your course earnings and manage withdrawals",
+        "withdrawRequest": "Withdraw Request",
+        "stats": {
+          "totalEarnings": "Total Earnings",
+          "pending": "Pending",
+          "available": "Available",
+          "withdrawn": "Withdrawn"
+        },
+        "courseEarnings": "Course Earnings",
+        "courseEarningsDescription": "Platform fee is 20% of gross revenue",
+        "courseEarningsTable": {
+          "course": "Course",
+          "students": "Students",
+          "grossRevenue": "Gross Revenue",
+          "platformFee": "Platform Fee (20%)",
+          "yourEarnings": "Your Earnings"
+        },
+        "paymentMethods": "Payment Methods",
+        "paymentMethodsDescription": "Your withdrawals will be sent to these bank accounts",
+        "accountOwner": "Account holder",
+        "defaultLabel": "Default",
+        "bankName": "Bank name",
+        "accountNumber": "Account number",
+        "importantTitle": "Important:",
+        "importantDescription": "Please ensure your payment information is accurate. Incorrect information may cause failed or delayed transfers. Contact support if you need to update your bank details.",
+        "transactionHistory": "Transaction History",
+        "transactionHistoryDescription": "Recent income and withdrawal activities",
+        "transactionTable": {
+          "date": "Date",
+          "status": "Status",
+          "description": "Description",
+          "amount": "Amount"
+        },
+        "status": {
+          "completed": "Completed",
+          "processing": "Processing",
+          "failed": "Failed"
+        },
+        "withdrawModal": {
+          "title": "Withdraw Request",
+          "amount": "Amount to withdraw",
+          "amountPlaceholder": "Minimum 200,000 VND",
+          "availableBalanceLabel": "Available balance",
+          "method": "Payout account",
+          "submit": "Submit Request",
+          "cancel": "Cancel"
+        },
+        "successModal": {
+          "title": "Request Successful",
+          "message": "Your withdraw request has been submitted successfully",
+          "processingTitle": "Your withdraw request is being processed",
+          "processingLine1": "Your request is currently being processed.",
+          "processingLine2": "We will notify you when there is an update.",
+          "close": "Close"
+        }
+      }
+    },
+    "publishCourse": {
+      "publishCourse": "Publish Course",
+      "managePublishing": "Manage Publishing",
+      "schedulePublish": "Schedule Publish",
+      "managePublishingDesc": "This course is currently published. You can unpublish if needed.",
+      "choosePublishMethod": "Choose how to publish your course",
+      "chooseDateTimeDesc": "Select date and time to auto-publish the course",
+      "publishNowDesc": "Publish now to make the course available to students",
+      "publishSuccess": "Course published successfully!",
+      "publishSuccessDesc": "Your course is now available to students.",
+      "publishError": "Unable to publish course",
+      "tryAgainLater": "Please try again later.",
+      "selectDateTimeError": "Please select publish date and time",
+      "futureTimeError": "Publish time must be in the future",
+      "scheduleSuccess": "Course publish scheduled!",
+      "scheduleSuccessDesc": "Course will be published at",
+      "scheduleError": "Unable to schedule publish",
+      "confirmUnpublish": "Are you sure you want to unpublish this course?",
+      "unpublishSuccess": "Course unpublished",
+      "unpublishSuccessDesc": "This course will no longer be visible to students.",
+      "unpublishError": "Unable to unpublish",
+      "published": "Published",
+      "publishedDesc": "Course \"{title}\" is visible to students.",
+      "note": "Note",
+      "unpublishWarning1": "Unpublishing will hide the course from students",
+      "unpublishWarning2": "Student data and reviews will be preserved",
+      "unpublishWarning3": "You can republish at any time",
+      "publishNow": "Publish Now",
+      "publishNowButtonDesc": "Course will be available to students immediately",
+      "schedulePublishButton": "Schedule Publish",
+      "schedulePublishButtonDesc": "Select date and time to auto-publish",
+      "publishDate": "Publish Date",
+      "publishTime": "Publish Time",
+      "willBePublishedAt": "Course will be published at:",
+      "unpublish": "Unpublish",
+      "close": "Close",
+      "cancel": "Cancel",
+      "back": "Back",
+      "schedulePublishButtonAction": "Schedule Publish"
+    },
+    "createCourse": {
+      "title": "Create New Course",
+      "steps": {
+        "basicInfo": "Basic Information",
+        "content": "Content",
+        "review": "Preview"
+      },
+      "form": {
+        "courseName": "Course Name",
+        "description": "Description",
+        "category": "Category",
+        "price": "Price",
+        "thumbnail": "Thumbnail",
+        "save": "Save",
+        "next": "Next",
+        "reset": "Reset"
+      }
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "hero": {
+      "badge": "Online Teaching Platform",
+      "heading": "Turn Education into Educational Assets",
+      "description": "Create and share your courses with millions of learners worldwide",
+      "cta": "Start Creating Course"
+    },
+    "features": {
+      "title": "We understand what matters to Teachers",
+      "subtitle": "Tools and features designed to help you succeed",
+      "feature1": {
+        "title": "Easy Course Creation",
+        "description": "Powerful editor helps you create professional content"
+      },
+      "feature2": {
+        "title": "Detailed Analytics",
+        "description": "Track course performance and understand your students"
+      },
+      "feature3": {
+        "title": "Secure Payments",
+        "description": "Receive payments quickly and securely from students"
+      }
+    },
+    "trust": {
+      "title": "Trust Built from How We Operate",
+      "description": "We believe Teachers can only partner with peace of mind when the platform is designed transparently, consistently and responsibly for long-term value.",
+      "card1": {
+        "title": "Long-term orientation, not following trends",
+        "description": "We don't build platforms for short-term campaigns. Every product decision is aimed at helping Teachers accumulate sustainable value over time."
+      },
+      "card2": {
+        "title": "AI tools serve real value",
+        "description": "AI tools are used directly in SME operations, ensuring teaching content is always connected to practice."
+      },
+      "card3": {
+        "title": "Transparency is a principle, not a feature",
+        "description": "All data related to students, progress and revenue is displayed clearly, with context and can be verified"
+      },
+      "card4": {
+        "title": "Respect Teacher ownership",
+        "description": "Teachers have full rights to content, teaching methods and course development. The platform plays a supporting infrastructure and tool role, without interfering with expertise."
+      }
+    },
+    "aiTools": {
+      "title": "AI Tools Suite to Help Teachers Enhance Teaching Expertise",
+      "description": "We provide AI support tools so teachers can not only teach better, but also understand more deeply about real-world problems, data and industry trends.",
+      "design_consultation": "Design Consultation",
+      "searchPlaceholder": "Search AI tools, prompts, templates..."
+    },
+    "testimonials": {
+      "title": "What Teachers Say After Working with the Platform",
+      "description": "The following shares come from real experiences in building, operating and developing courses on the platform."
+    },
+    "cta": {
+      "title": "We seriously partner with Teachers",
+      "description": "If you want to build a sustainable educational asset, {platform} is designed to support you in doing that.",
+      "button": "Start Building Course"
+    },
+    "faq": {
+      "support": "Support",
+      "title": "FAQs",
+      "description": "Find answers to frequently asked questions about becoming a teacher on the 5200AI platform. If you have other questions, please don't hesitate to contact us.",
+      "q1": "How do I register to become a teacher on 5200AI?",
+      "a1": "You can register to become a teacher by clicking the \"Apply Now\" button on this page or visiting the registration page and selecting the \"Teacher\" role. After filling in your basic information and verifying your email, you will be redirected to the teacher dashboard to start creating your first course.",
+      "q2": "What are the requirements to become a teacher on 5200AI?",
+      "a2": "5200AI does not require specific degrees, but you need to have professional knowledge and practical experience in the field you want to teach. We encourage teachers to have at least 2-3 years of work experience or previous teaching experience. Most importantly, you should have a passion for sharing knowledge and be committed to creating quality content for students.",
+      "q3": "How much will I earn from my courses?",
+      "a3": "Teachers have the right to set their own course prices. Revenue is shared transparently and you can track details in your dashboard. The payment system is automated and you can withdraw funds according to the agreed cycle. All information about revenue, students, and payments is clearly displayed in the financial management section.",
+      "q4": "What AI tools are available to support teachers?",
+      "a4": "5200AI provides a diverse suite of AI tools to support teachers in content creation, course management, and student interaction. Tools include: lecture writing assistance, automatic quiz and assignment generation, student progress analysis, content improvement suggestions based on data, and automation of repetitive tasks. You can also request custom tool design tailored to your teaching methods.",
+      "q5": "Do I own the content of my courses?",
+      "a5": "Absolutely. Teachers retain full intellectual property rights to their course content. 5200AI only serves as a platform providing infrastructure and support tools. You have the right to decide on teaching methods, course development approaches, and can remove courses from the platform at any time. We are committed to respecting teacher ownership.",
+      "q6": "How can I get support when I encounter issues?",
+      "a6": "You can contact the 5200AI support team through multiple channels: support email, online chat in the dashboard, or schedule a consultation for custom teaching tool design. We also provide detailed documentation and video tutorials to help you get familiar with the platform. The support team is always ready to answer all your questions."
+    },
+    "weUnderstand": {
+      "title": "We understand what matters to Teachers",
+      "description": "When building 5200AI, we don't focus on content quantity, but on the ability to help Teachers define their value and develop sustainably.",
+      "card1": {
+        "title": "You don't build everything alone",
+        "description": "5200AI provides a ready-made student ecosystem and AI-supported resources, so you can focus on content and learning experience, instead of worrying about operations."
+      },
+      "card2": {
+        "title": "Income needs to be measured transparently and systematically",
+        "description": "Track revenue by course and over time, with transparent and easy-to-understand status so you always know the value you are creating"
+      },
+      "card3": {
+        "title": "Data serves your decisions",
+        "description": "Information about students, learning progress, evaluations and revenue is displayed consistently, helping you understand the actual situation and make more confident decisions."
+      }
+    },
+    "customTools": {
+      "title1": "Design teaching tools",
+      "title2": "based on needs",
+      "desc1": "5200AI supports designing and adjusting teaching tools",
+      "desc2": "based on needs, methods and real-world context",
+      "desc3": "of each Teacher.",
+      "button": "Design Consultation"
+    }
+  },
+  "profile": {
+    "contactInfo": "Contact Information",
+    "bio": "Bio"
+  },
+  "pageNotFound": {
+    "title": "Under maintenance",
+    "description": "Sorry, the page you are looking for does not exist or has been moved. Try searching our site:",
+    "searchPlaceholder": "Enter search terms",
+    "searchButton": "Search",
+    "backHome": "Back to homepage"
+  },
+  "errors": {
+    "notFound": "Not found",
+    "somethingWentWrong": "Something went wrong"
+  },
+  "footer": {
+    "socialLinks": "Social Links",
+    "about": "About Us",
+    "support": "Support",
+    "courses": "Courses",
+    "legal": "Legal",
+    "links": {
+      "aboutUs": "About Us",
+      "careers": "Careers",
+      "press": "Press",
+      "contact": "Contact",
+      "help": "Help Center",
+      "safety": "Safety Center",
+      "community": "Community",
+      "faq": "FAQs",
+      "dev": "Dev",
+      "business": "Business",
+      "design": "Design",
+      "marketing": "Marketing",
+      "terms": "Learner Terms",
+      "privacy": "Privacy Policy",
+      "cookies": "Cookie Policy",
+      "accessibility": "Accessibility"
+    },
+    "slogan": "Learn with Trust. Teach with Value",
+    "copyright": "© 2022 - 2025 5200AI. All rights reserved"
+  },
+  "home": {
+    "stats": {
+      "label1": "Successful Students",
+      "desc1": "Nationwide and international",
+      "label2": "Quality Courses",
+      "desc2": "Continuously updated",
+      "label3": "Satisfaction Rate",
+      "desc3": "Verified by students",
+      "label4": "Career Growth",
+      "desc4": "After completing courses"
+    }
+  },
+  "page": {
+    "home": {
+      "title": "5200edu - Online Learning Platform",
+      "subtitle": "Learn anytime, anywhere with high-quality courses",
+      "exploreCourses": "Explore Courses",
+      "topInstructors": "Top Teachers",
+      "whyChooseUs": "Why Choose Us",
+      "studentReviews": "Student Reviews",
+      "packages": "Tools & Packages",
+      "hero": {
+        "slide1": {
+          "heading1": "Learn with Trust",
+          "heading2": "Practical AI – Clear Results.",
+          "button": "Explore Now"
+        },
+        "slide2": {
+          "heading1": "Start Your Journey",
+          "heading2": "Conquer AI",
+          "button": "Start Course"
+        },
+        "slide3": {
+          "heading1": "Join the Team",
+          "heading2": "AI Teachers",
+          "button": "Join the Team"
+        },
+        "stats": {
+          "courses": {
+            "value": "10K+",
+            "label": "Courses"
+          },
+          "students": {
+            "value": "5M+",
+            "label": "Students"
+          },
+          "teachers": {
+            "value": "50K+",
+            "label": "Teachers"
+          }
+        },
+        "overlay": {
+          "studentsOnlineValue": "1,200+ students",
+          "studentsOnlineLabel": "online now",
+          "registeredThisMonthValue": "500K registered",
+          "registeredThisMonthLabel": "This month"
+        }
+      },
+      "whyUs": {
+        "title": "Why Choose Us",
+        "expertInstructors": {
+          "title": "Expert Teachers",
+          "description": "Learn from industry experts with real-world experience and proven teaching skills."
+        },
+        "flexibleLearning": {
+          "title": "Flexible Learning",
+          "description": "Learn at your own pace with lifetime access to course materials and downloadable resources."
+        },
+        "trustedPlatform": {
+          "title": "Trusted Platform",
+          "description": "Join a safe, trusted platform with a large community of learners and dedicated support team."
+        }
+      },
+      "courses": {
+        "title": "Courses",
+        "noCourses": "No courses available"
+      },
+      "reviews": {
+        "title": "Student Reviews",
+        "readMore": "Read more",
+        "courseName": "📚 Course name from basic to advanced",
+        "studentName": "I am .....",
+        "review1": "The Machine Learning course here completely changed my perspective on AI. The teacher is very enthusiastic, the content is up-to-date and practical. After 6 months, I moved to a Data Scientist position!",
+        "review2": "I used to think AI was difficult and only for technical people, but this course explains it very clearly. After learning, I realized AI can be applied immediately to daily work.",
+        "review3": "The course helped me save a lot of operational time by applying AI to work processes. The automation part is especially useful."
+      },
+      "cta": {
+        "badge": "Limited Time Offer",
+        "heading": "Start your learning journey today!",
+        "description": "Join millions of learners worldwide and unlock your potential with our comprehensive course library. Start for free and access expert-led courses.",
+        "button": "Explore now"
+      },
+      "ctaBecomeTeacher": {
+        "headingPart1": "Become ",
+        "headingPart2": "an AI Teacher ",
+        "headingPart3": "with us",
+        "description": "Share your expertise, build your personal brand, and create real value for the learner community.",
+        "button": "Join the AI Teacher team"
+      },
+      "consultation": {
+        "title": "Get AI tool design consultation information",
+        "form": {
+          "fullName": "Full Name",
+          "fullNamePlaceholder": "Enter Full Name",
+          "email": "Email",
+          "emailPlaceholder": "Enter your email",
+          "phone": "Phone Number",
+          "phonePlaceholder": "Enter your phone number",
+          "submit": "Get consultation",
+          "requiredMessage": "Please fill in this field."
+        },
+        "successMessage": "Thank you for registering! We will contact you as soon as possible.",
+        "submitSending": "Sending...",
+        "errorGeneric": "An error occurred, please try again",
+        "errorSubmit": "Unable to submit consultation request. Please try again later."
+      },
+      "events": {
+        "title": "Community Events",
+        "noEvents": "No events available",
+        "noEventsFound": "Unable to load event list",
+        "techSeminars": "Technology Workshop",
+        "offlineCourses": "Offline Courses",
+        "community": "Community"
+      }
+    },
+    "courses": {
+      "title": "Courses",
+      "allCourses": "All Courses",
+      "myCourses": "My Courses",
+      "enrolledCourses": "Enrolled Courses",
+      "continueLearning": "Continue Learning",
+      "startCourse": "Start Course",
+      "courseDetail": "Course Detail",
+      "curriculum": "Curriculum",
+      "reviews": "Reviews",
+      "instructorInfo": "Teacher Info",
+      "relatedCourses": "Related Courses",
+      "noCoursesFound": "No courses found",
+      "enrollNow": "Enroll Now",
+      "free": "Free",
+      "paid": "Paid",
+      "noCourses": "No courses available",
+      "noInProgress": "No courses in progress",
+      "noCompleted": "No completed courses",
+      "explore": "Explore {count} high-quality courses",
+      "tryAdjustFilters": "Try adjusting filters or search with different keywords",
+      "filters": {
+        "allCategories": "All Categories",
+        "allLevels": "All Levels",
+        "allPrices": "All Prices",
+        "sortBy": "Sort By",
+        "sortPopular": "Most Popular",
+        "sortRating": "Highest Rated",
+        "sortNewest": "Newest",
+        "sortPriceLow": "Price: Low to High",
+        "sortPriceHigh": "Price: High to Low",
+        "priceFree": "Free",
+        "priceUnder500k": "Under 500,000₫",
+        "price500kTo1m": "500,000₫ - 1,000,000₫",
+        "price1mTo2m": "1,000,000₫ - 2,000,000₫",
+        "priceOver2m": "Over 2,000,000₫",
+        "searchPlaceholder": "Search courses...",
+        "categoryPlaceholder": "Category",
+        "levelPlaceholder": "Level",
+        "pricePlaceholder": "Price Range",
+        "sortPlaceholder": "Sort By",
+        "viewGrid": "Grid",
+        "viewList": "List"
+      }
+    },
+    "teachers": {
+      "title": "Our Teachers",
+      "allTeachers": "All Teachers",
+      "teacherDetail": "Teacher Detail",
+      "teacherCourses": "Teacher Courses",
+      "courses": "Courses",
+      "teacherStats": "Teacher Stats",
+      "experience": "Experience",
+      "specialties": "Specialties",
+      "achievements": "Achievements",
+      "education": "Education",
+      "certificates": "Certificates",
+      "educationAndCertificates": "Education and Certificates",
+      "viewAllCourses": "View All Courses",
+      "viewProfile": "View Profile",
+      "noTeachersFound": "No teachers found",
+      "defaultName": "Instructor",
+      "noBio": "No biography available",
+      "studentReviews": "Student Reviews",
+      "galleryTitle": "Activity Gallery",
+      "noGalleryImages": "No gallery images available"
+    },
+    "events": {
+      "title": "Events",
+      "upcomingEvents": "Upcoming",
+      "pastEvents": "Ended",
+      "eventDetail": "Event Detail",
+      "registerEvent": "Register for Event",
+      "noEventsFound": "No events found",
+      "techSeminars": "Technology Workshop",
+      "offlineCourses": "Offline Courses",
+      "community": "Community",
+      "sections": {
+        "technologyWorkshop": "Technology Workshop",
+        "offlineCourses": "Offline Courses",
+        "community": "Community"
+      },
+      "loadingDetails": "Loading event details..."
+    },
+    "becomeTeacher": {
+      "title": "Become a Teacher",
+      "subtitle": "Share your knowledge and earn income",
+      "trustedBy": "Trusted by 1,000+ Teachers",
+      "heroTitle": "Where Knowledge Becomes Educational Assets",
+      "heroDesc": "Platform, AI tools and student ecosystem for teachers to build, operate and develop courses as a transparent and sustainable educational business.",
+      "benefits": "Benefits",
+      "requirements": "Requirements",
+      "applyNow": "Apply Now",
+      "registerAsTeacher": "Start building your course",
+      "whyJoin": "Why Join",
+      "earnMoney": "Earn Money",
+      "flexibleSchedule": "Flexible Schedule",
+      "globalReach": "Global Reach",
+      "feature1": "Revenue measurable by course",
+      "feature2": "AI tools directly serve content and operations",
+      "feature3": "Student data, progress and evaluations displayed clearly with context",
+      "weUnderstandTitle": "We understand what matters to Teachers",
+      "weUnderstandDesc": "When building 5200AI, we don't focus on content quantity, but on the ability to help Teachers define their value and develop sustainably.",
+      "card1Title": "You don't build everything alone",
+      "card1Desc": "5200AI provides a ready-made student ecosystem and AI-supported resources, so you can focus on content and learning experience, instead of worrying about operations.",
+      "card2Title": "Income needs to be measured transparently and systematically",
+      "card2Desc": "Track revenue by course and over time, with transparent and easy-to-understand status so you always know the value you are creating",
+      "card3Title": "Data serves your decisions",
+      "card3Desc": "Information about students, learning progress, evaluations and revenue is displayed consistently, helping you understand the actual situation and make more confident decisions.",
+      "ctaTitle": "We seriously partner with Teachers",
+      "ctaDesc": "If you want to build a sustainable educational asset, {platform} is designed to support you in doing that.",
+      "platform": "5200AI",
+      "statsEntrepreneurs": "1,200+ Entrepreneurs",
+      "statsStudents": "10,000+ Students",
+      "statsCourses": "500+ Courses",
+      "statsRevenue": "2.5B VND",
+      "onlineNow": "online now",
+      "experiencedTeam": "experienced teacher team",
+      "experiencedTeamDesc": "High expertise, multi-domain",
+      "goodReviews": "+253 good reviews",
+      "fromTeachers": "from Teachers using the platform",
+      "aiToolsTitle": "AI Tools Suite to Help Teachers Enhance Teaching Expertise",
+      "aiToolsDesc": "We provide AI support tools so teachers can not only teach better, but also understand more deeply about real-world problems, data and industry trends.",
+      "faqSupport": "Support",
+      "faqTitle": "FAQs",
+      "faqDesc": "Find answers to frequently asked questions about becoming a teacher on the 5200AI platform. If you have other questions, please don't hesitate to contact us.",
+      "faq1Question": "How do I register to become a teacher on 5200AI?",
+      "faq1Answer": "You can register to become a teacher by clicking the \"Apply Now\" button on this page or visiting the registration page and selecting the \"Teacher\" role. After filling in your basic information and verifying your email, you will be redirected to the teacher dashboard to start creating your first course.",
+      "faq2Question": "What are the requirements to become a teacher on 5200AI?",
+      "faq2Answer": "5200AI does not require specific degrees, but you need to have professional knowledge and practical experience in the field you want to teach. We encourage teachers to have at least 2-3 years of work experience or previous teaching experience. Most importantly, you should have a passion for sharing knowledge and be committed to creating quality content for students.",
+      "faq3Question": "How much will I earn from my courses?",
+      "faq3Answer": "Teachers have the right to set their own course prices. Revenue is shared transparently and you can track details in your dashboard. The payment system is automated and you can withdraw funds according to the agreed cycle. All information about revenue, students, and payments is clearly displayed in the financial management section.",
+      "faq4Question": "What AI tools are available to support teachers?",
+      "faq4Answer": "5200AI provides a diverse suite of AI tools to support teachers in content creation, course management, and student interaction. Tools include: lecture writing assistance, automatic quiz and assignment generation, student progress analysis, content improvement suggestions based on data, and automation of repetitive tasks. You can also request custom tool design tailored to your teaching methods.",
+      "faq5Question": "Do I own the content of my courses?",
+      "faq5Answer": "Absolutely. Teachers retain full intellectual property rights to their course content. 5200AI only serves as a platform providing infrastructure and support tools. You have the right to decide on teaching methods, course development approaches, and can remove courses from the platform at any time. We are committed to respecting teacher ownership.",
+      "faq6Question": "How can I get support when I encounter issues?",
+      "faq6Answer": "You can contact the 5200AI support team through multiple channels: support email, online chat in the dashboard, or schedule a consultation for custom teaching tool design. We also provide detailed documentation and video tutorials to help you get familiar with the platform. The support team is always ready to answer all your questions.",
+      "trustTitle": "Trust Built from How We Operate",
+      "trustDesc": "We believe Teachers can only partner with peace of mind when the platform is designed transparently, consistently and responsibly for long-term value.",
+      "trustCard1Title": "Long-term orientation, not following trends",
+      "trustCard1Desc": "We don't build platforms for short-term campaigns. Every product decision is aimed at helping Teachers accumulate sustainable value over time.",
+      "trustCard2Title": "AI tools serve real value",
+      "trustCard2Desc": "AI tools are used directly in SME operations, ensuring teaching content is always connected to practice.",
+      "trustCard3Title": "Transparency is a principle, not a feature",
+      "trustCard3Desc": "All data related to students, progress and revenue is displayed clearly, with context and can be verified",
+      "trustCard4Title": "Respect Teacher ownership",
+      "trustCard4Desc": "Teachers have full rights to content, teaching methods and course development. The platform plays a supporting infrastructure and tool role, without interfering with expertise.",
+      "customToolsTitle": "Design teaching tools",
+      "customToolsTitle2": "based on needs",
+      "customToolsDesc1": "5200AI supports designing and adjusting teaching tools",
+      "customToolsDesc2": "based on needs, methods and real-world context",
+      "customToolsDesc3": "of each Teacher.",
+      "designConsultation": "Design Consultation",
+      "testimonialsTitle": "What Teachers Say After Working with the Platform",
+      "testimonialsDesc": "The following shares come from real experiences in building, operating and developing courses on the platform.",
+      "testimonial1Name": "Tran Thi Mai",
+      "testimonial1Role": "F&B Training & Consulting Teacher",
+      "testimonial1Comment": "Classify feels like a real workspace, not just a place to post lectures. I can track the development of each course and improve content based on specific data.",
+      "testimonial2Name": "Le Van Son",
+      "testimonial2Role": "AI & F&B Operations Teacher",
+      "testimonial2Comment": "AI tools help me significantly reduce time spent on repetitive tasks like tracking progress or compiling assignments. This gives me more time to focus on content quality and student interaction.",
+      "testimonial3Name": "Pham Thu Ha",
+      "testimonial3Role": "SME Management & Strategy Teacher",
+      "testimonial3Comment": "I appreciate how Classify presents data. Everything from students, progress to revenue is clear and easy to understand, giving me peace of mind when viewing teaching as a long-term activity.",
+      "testimonial4Name": "Nguyen Minh Tuan",
+      "testimonial4Role": "Marketing & Branding Teacher",
+      "testimonial4Comment": "The platform helps me manage courses much more effectively. Clear dashboard, detailed data, and especially I can interact directly with students professionally.",
+      "testimonial5Name": "Hoang Thi Lan",
+      "testimonial5Role": "Finance & Accounting Teacher",
+      "testimonial5Comment": "I like how the system automates many complex tasks. From grading to tracking student progress, everything is handled intelligently and accurately.",
+      "testimonial6Name": "Dang Quoc Huy",
+      "testimonial6Role": "Technology & Programming Teacher",
+      "testimonial6Comment": "Student analytics tools are very detailed. I can know exactly which students are struggling where and adjust teaching methods accordingly.",
+      "testimonial7Name": "Vo Thi Huong",
+      "testimonial7Role": "Design & Creativity Teacher",
+      "testimonial7Comment": "Beautiful interface, easy to use and very professional. My students are also very satisfied with the learning experience on this platform.",
+      "testimonial8Name": "Bui Van Thanh",
+      "testimonial8Role": "Business Administration Teacher",
+      "testimonial8Comment": "The revenue reporting system is transparent and detailed. I always have a clear picture of the financial situation and can plan long-term course development.",
+      "testimonial9Name": "Ly Thanh Nga",
+      "testimonial9Role": "Foreign Language & Communication Teacher",
+      "testimonial9Comment": "The direct interaction feature with students is excellent. I can answer questions, comment on assignments and track each person's learning progress easily.",
+      "testimonial10Name": "Phan Duc Anh",
+      "testimonial10Role": "Startup & Investment Teacher",
+      "testimonial10Comment": "This platform helps me build my personal brand effectively. From the profile page to how courses are presented, everything is very professional and attractive.",
+      "testimonial11Name": "Truong Thi Mai Anh",
+      "testimonial11Role": "Personal Development Teacher",
+      "testimonial11Comment": "AI tools for content creation are very useful. I save a lot of time in preparing lectures and learning materials.",
+      "testimonial12Name": "Duong Van Long",
+      "testimonial12Role": "Real Estate & Investment Teacher",
+      "testimonial12Comment": "The student management system is very powerful. I can group, tag and track each student group in detail and scientifically.",
+      "testimonial13Name": "Ho Thi Phuong",
+      "testimonial13Role": "Health & Nutrition Teacher",
+      "testimonial13Comment": "I appreciate the quiz and assignment creation features. Students can test their knowledge and I can easily evaluate their learning effectiveness.",
+      "testimonial14Name": "Ngo Minh Duc",
+      "testimonial14Role": "E-commerce & Sales Teacher",
+      "testimonial14Comment": "The platform helps me scale courses easily. From dozens of students to hundreds of people, the system still runs smoothly and stably.",
+      "testimonial15Name": "Vu Thi Thanh",
+      "testimonial15Role": "Arts & Photography Teacher",
+      "testimonial15Comment": "The media upload and management feature is very convenient. I can share high-quality images and videos without worrying about capacity or loading speed.",
+      "registerModal": {
+        "title": "Become a Teacher",
+        "subtitle": "on 5200AI platform",
+        "nameLabel": "Full Name",
+        "namePlaceholder": "Enter your full name",
+        "emailLabel": "Email",
+        "emailPlaceholder": "Enter your email",
+        "phoneLabel": "Phone Number",
+        "phonePlaceholder": "Enter your phone number",
+        "submit": "Register",
+        "nameMinLength": "Name must be at least 2 characters",
+        "emailInvalid": "Invalid email address",
+        "phoneInvalid": "Invalid phone number"
+      }
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "welcome": "Welcome",
+      "overview": "Overview",
+      "analytics": "Analytics",
+      "recentActivity": "Recent Activity",
+      "quickStats": "Quick Stats",
+      "totalStudents": "Total Students",
+      "totalCourses": "Total Courses",
+      "totalEarnings": "Total Earnings",
+      "averageRating": "Average Rating"
+    },
+    "settings": {
+      "title": "Settings",
+      "profile": "Profile",
+      "account": "Account",
+      "notifications": "Notifications",
+      "privacy": "Privacy",
+      "security": "Security",
+      "payment": "Payment",
+      "language": "Language",
+      "theme": "Theme"
+    },
+    "profile": {
+      "title": "Profile",
+      "editProfile": "Edit Profile",
+      "personalInfo": "Personal Information",
+      "contactInfo": "Contact Info",
+      "bio": "Bio",
+      "skills": "Skills",
+      "portfolio": "Portfolio",
+      "socialLinks": "Social Links"
+    },
+    "checkout": {
+      "title": "Checkout",
+      "summary": "Order Summary",
+      "paymentMethod": "Payment Method",
+      "momo": "MoMo Wallet",
+      "bankTransfer": "Bank Transfer",
+      "creditCard": "Credit Card",
+      "completePayment": "Complete Payment",
+      "paymentSuccess": "Payment Successful",
+      "paymentFailed": "Payment Failed",
+      "orderSummary": "Order Summary"
+    },
+    "_comment_student": "=== STUDENT ROLE TRANSLATIONS ===",
+    "student": {
+      "settings": {
+        "title": "Account",
+        "personalProfile": "Personal Profile",
+        "accountSecurity": "Account & Security",
+        "notifications": "Notifications",
+        "supportCenter": "Support Center",
+        "forceChangePassword": "Password Change Required",
+        "forceChangePasswordDesc": "This is your first time logging in. Please change your password to continue using the system.",
+        "personalInfo": "Personal Information",
+        "changePhoto": "Change Photo",
+        "fullName": "Full Name",
+        "email": "Email",
+        "phone": "Phone Number",
+        "dateOfBirth": "Date of Birth",
+        "gender": "Gender",
+        "selectGender": "Select gender",
+        "male": "Male",
+        "female": "Female",
+        "other": "Other",
+        "city": "City",
+        "country": "Country",
+        "address": "Address",
+        "schoolName": "School Name",
+        "bio": "Bio",
+        "bioPlaceholder": "Tell others about yourself...",
+        "interests": "Interests",
+        "interestsPlaceholder": "Enter your interests...",
+        "learningGoals": "Learning Goals",
+        "learningGoalsPlaceholder": "What are your learning goals?",
+        "socialLinks": "Social Links",
+        "addSocialLink": "Add Social Link",
+        "saveChanges": "Save Changes",
+        "fileTooLarge": "Image is too large (max 5MB)",
+        "avatarUpdated": "Avatar updated successfully",
+        "avatarError": "Failed to update avatar",
+        "notificationsDesc": "Manage how you receive notifications",
+        "systemNotifications": "System Notifications",
+        "systemNotificationsDesc": "Important system updates",
+        "courseNotifications": "Course Notifications",
+        "courseNotificationsDesc": "Updates on your learning progress",
+        "communityNotifications": "Community Notifications",
+        "communityNotificationsDesc": "Activity from the learner community",
+        "marketingEmail": "Marketing Emails",
+        "marketingEmailDesc": "Promotions and special offers",
+        "inApp": "In-App",
+        "accountSecurityDesc": "Manage your account security",
+        "password": "Password",
+        "currentPassword": "Current Password",
+        "newPassword": "New Password",
+        "confirmPassword": "Confirm Password",
+        "enterCurrentPassword": "Please enter your current password",
+        "enterNewPassword": "Please enter a new password",
+        "passwordMinLength": "Password must be at least 6 characters",
+        "passwordMismatch": "Passwords do not match",
+        "passwordChangeSuccess": "Password changed successfully",
+        "passwordChangeError": "Failed to change password",
+        "updatePassword": "Update Password",
+        "updatingPassword": "Updating...",
+        "emailVerification": "Email Verification",
+        "verified": "Verified",
+        "verify": "Verify",
+        "connectedDevices": "Connected Devices",
+        "connectedDevicesDesc": "Manage your signed-in devices",
+        "logoutAllDevices": "Sign out all devices",
+        "supportCenterDesc": "We're here to help you",
+        "enterFullName": "Enter your full name",
+        "enterEmail": "Enter your email",
+        "enterPhone": "Enter your phone number",
+        "label": "Category",
+        "selectOne": "Select one",
+        "technicalIssue": "Technical Issue",
+        "billing": "Billing",
+        "feedback": "Feedback",
+        "errorDescription": "Error Description",
+        "enterDescription": "Describe your issue in detail...",
+        "send": "Send",
+        "sending": "Sending...",
+        "supportFormRequired": "Please fill in all required fields",
+        "supportRequestSubmitted": "Support request submitted successfully",
+        "supportRequestError": "Failed to submit support request"
+      },
+      "checkout": {
+        "paymentMethod": {
+          "title": "Payment"
+        },
+        "steps": {
+          "cart": "Cart",
+          "payment": "Payment"
+        },
+        "coupon": {
+          "available": "Enter discount code"
+        },
+        "title": "Checkout",
+        "instructorName": "Instructor name here",
+        "sections": {
+          "payment": "Payment",
+          "courses": "Courses"
+        },
+        "summary": {
+          "subtotal": "Total product value",
+          "discountCode": "Discount code",
+          "total": "Total payment",
+          "amount": "Amount",
+          "discount": "Free"
+        },
+        "actions": {
+          "apply": "Apply",
+          "retry": "Retry",
+          "startLearning": "Start Learning",
+          "processing": "Processing..."
+        },
+        "placeholders": {
+          "discountCode": "Enter discount code"
+        },
+        "methods": {
+          "qrCode": "Pay with QR code",
+          "momo": "Pay with MoMo"
+        },
+        "qrPayment": {
+          "title": "Pay with QR code",
+          "instructions": "Follow these instructions to pay:",
+          "step1": "Step 1:",
+          "step1Desc": "Open your bank's Mobile Banking app",
+          "step2": "Step 2:",
+          "step2Desc": "Select Payment and scan the QR code",
+          "step3": "Step 3:",
+          "step3Desc": "Do not close browser and wait for processing",
+          "warning": "Note: Do not modify the transfer content.",
+          "mockSuccess": "Payment successful (mock)",
+          "mockFailure": "Payment failed (mock)",
+          "courseInfo": "Course Information",
+          "amount": "Amount",
+          "waitingPayment": "Waiting for payment...",
+          "processingPayment": "Processing payment..."
+        },
+        "momoPayment": {
+          "title": "Pay with MoMo",
+          "instructions": "Follow these instructions to pay with MoMo:",
+          "step1": "Step 1:",
+          "step1Desc": "Open MoMo app on your phone",
+          "step2": "Step 2:",
+          "step2Desc": "Select Scan QR and scan the MoMo QR",
+          "step3": "Step 3:",
+          "step3Desc": "Do not close browser and wait for system processing",
+          "warning": "Note: Do not modify the transfer content.",
+          "mockSuccess": "Payment successful (mock)",
+          "mockFailure": "Payment failed (mock)",
+          "courseInfo": "Course Information",
+          "amount": "Amount",
+          "waitingPayment": "Waiting for payment...",
+          "processingPayment": "Processing payment..."
+        },
+        "success": {
+          "title": "Payment Successful",
+          "message": "Now you can start learningdocker system df",
+          "button": "Start Learning Now"
+        },
+        "failure": {
+          "title": "Payment Unsuccessful",
+          "message1": "Transaction could not be completed.",
+          "message2": "Please check your payment information and try again.",
+          "retryButton": "Retry",
+          "backButton": "Go Back"
+        },
+        "messages": {
+          "pleaseLogin": "Please login to continue",
+          "studentOnly": "Only students can purchase courses",
+          "orderCreationError": "Error creating order. Please try again.",
+          "couponAdded": "Discount code added. It will be applied during checkout.",
+          "couponAlreadyApplied": "Discount code already applied",
+          "enterCoupon": "Please enter a discount code",
+          "emptyDiscountCode": "₫0"
+        }
+      },
+      "courses": {
+        "myCourses": "My Courses",
+        "user": "User",
+        "studentRole": "Student Role",
+        "hasCourses": "have {count} courses",
+        "filter": "Filter",
+        "recentActivity": "Recent Activity",
+        "seeMore": "See More",
+        "allCourses": "All Courses",
+        "inProgress": "In Progress",
+        "noInProgressCourses": "No courses in progress yet",
+        "noCompletedCourses": "No completed courses yet",
+        "noCoursesMessage": "No courses available",
+        "assignments": "Assignments",
+        "noAssignments": "No assignments yet",
+        "noRecentActivity": "No recent activity",
+        "course": "Course",
+        "lessons": "lessons",
+        "notStarted": "Not Started",
+        "startLearning": "Start Learning",
+        "continueLearning": "Continue Learning",
+        "status": "Status",
+        "loginRequired": "Please log in to purchase this course",
+        "studentOnly": "Only students can purchase courses",
+        "completedPage": {
+          "title": "Congratulations on completing the course",
+          "description": "You are now ready to apply AI in your work and daily life.",
+          "copy": "Copy",
+          "fullPackage": "Full Package",
+          "toolPackages": "Tool Packages",
+          "consultation": "Get Consultation"
+        },
+        "viewer": {
+          "course": "Course",
+          "explore": "Explore",
+          "noVideo": "No video available",
+          "videoNotSupported": "Video not supported"
+        },
+        "completed": "Completed"
+      },
+      "profile": {
+        "defaultLocation": "Location not specified",
+        "personalInfo": "Personal Information",
+        "email": "Email",
+        "phone": "Phone",
+        "dateOfBirth": "Date of Birth",
+        "gender": "Gender",
+        "male": "Male",
+        "female": "Female",
+        "other": "Other",
+        "address": "Address",
+        "city": "City",
+        "country": "Country",
+        "schoolName": "School",
+        "interests": "Interests",
+        "learningGoals": "Learning Goals",
+        "contactInfo": "Contact Information",
+        "bio": "Bio",
+        "assignments": "Assignments",
+        "noAssignments": "No assignments yet",
+        "recentActivity": "Recent Activity",
+        "noRecentActivity": "No recent activity",
+        "noSocialLinks": "No social media links",
+        "activityLearning": "Learning",
+        "activityEnrolled": "Just enrolled"
+      }
+    },
+    "teachers": {
+      "educationAndCertificates": "Education & Certificates",
+      "trainingCertificates": "Training Certificates",
+      "education": "Education",
+      "noCertificates": "No certificates yet",
+      "students": "Students",
+      "reviews": "Reviews",
+      "certificateDefaultTitle": "Certificate"
+    }
+  },
+  "pack": {
+    "content": "Package content",
+    "courses": "Courses",
+    "lessons": "Lessons",
+    "duration": "Duration",
+    "overallProgress": "Overall progress",
+    "completed": "Completed",
+    "remaining": "Remaining",
+    "continueLearning": "Continue learning",
+    "purchaseRequired": "Package purchase required"
+  },
+  "packs": {
+    "title": "High Quality Course Packages",
+    "subtitle": "Discover {count} course packages designed specifically for F&B and Marketing industries",
+    "breadcrumb": "Course Packages",
+    "searchPlaceholder": "Search course packages...",
+    "sortBy": "Sort by",
+    "sortOptions": {
+      "featured": "Featured",
+      "newest": "Newest",
+      "rating": "Highest Rated",
+      "popular": "Most Popular",
+      "priceLow": "Price: Low to High",
+      "priceHigh": "Price: High to Low"
+    },
+    "level": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+    "price": {
+      "free": "Free",
+      "under5m": "Under 5 million",
+      "5to10m": "5-10 million",
+      "10to15m": "10-15 million",
+      "over15m": "Over 15 million"
+    },
+    "showing": "Showing {count} of {total} course packages",
+    "notFoundTitle": "No course packages found",
+    "notFoundDesc": "No course packages match the selected filters.",
+    "clearFilters": "Clear filters",
+    "errorLoading": "Failed to load course packages",
+    "fullPackage": "Full Package",
+    "getConsultation": "Get Consultation",
+    "defaultHeader": "Automation Setup Package:",
+    "defaultUnit": "Setup / Restaurant"
+  },
+  "blog": {
+    "title": "Blog Post",
+    "create": "Create New Post",
+    "edit": "Edit Post",
+    "delete": "Delete Post",
+    "created": "Blog post created successfully",
+    "updated": "Blog post updated successfully",
+    "published": "Blog post published successfully",
+    "deleted": "Blog post deleted successfully",
+    "unpublished": "Blog post reverted to draft",
+    "hidden": "Blog post has been hidden",
+    "saveDraft": "Save Draft",
+    "saveAndPublish": "Save & Publish",
+    "preview": "Preview",
+    "closePreview": "Close",
+    "backToEdit": "Back to Edit",
+    "noTitle": "No title yet",
+    "noContent": "No content yet",
+    "uploadThumbnail": "Upload Thumbnail",
+    "thumbnailUploaded": "Thumbnail uploaded successfully",
+    "thumbnailError": "Failed to upload thumbnail",
+    "search": {
+      "placeholder": "Search blogs"
+    },
+    "filter": {
+      "all": "All",
+      "published": "Published",
+      "draft": "Draft"
+    },
+    "status": {
+      "published": "Published",
+      "draft": "Draft",
+      "hidden": "Hidden"
+    },
+    "actions": {
+      "edit": "Edit",
+      "delete": "Delete",
+      "publish": "Publish",
+      "unpublish": "Unpublish",
+      "hide": "Hide",
+      "create": "Create Blog"
+    },
+    "manage": {
+      "title": "Manage Blogs",
+      "noBlogsTitle": "No blogs yet",
+      "noMatchingBlogs": "No matching blogs found",
+      "createFirstBlog": "Start creating your first blog"
+    },
+    "errors": {
+      "fetchFailed": "Failed to load blog list",
+      "deleteFailed": "Failed to delete blog",
+      "publishFailed": "Failed to change blog status",
+      "hideFailed": "Failed to hide blog"
+    },
+    "confirmDeleteTitle": "Confirm Delete Blog",
+    "confirmDelete": "Are you sure you want to delete this blog? This action cannot be undone.",
+    "cancelDelete": "Cancel",
+    "form": {
+      "title": "Blog Title",
+      "titlePlaceholder": "Enter blog title",
+      "subtitle": "Subtitle",
+      "subtitlePlaceholder": "Enter subtitle",
+      "category": "Category",
+      "categoryPlaceholder": "Select category",
+      "selectCategory": "Select category",
+      "noCategories": "No categories available",
+      "loadingCategories": "Loading categories...",
+      "tag": "Tag",
+      "tagPlaceholder": "Enter tag content",
+      "selectTags": "Select tags",
+      "selectedTags": "{count} tags selected",
+      "searchTags": "Search tags...",
+      "noTags": "No tags found",
+      "loadingTags": "Loading tags...",
+      "content": "Content",
+      "contentPlaceholder": "Enter blog content...",
+      "thumbnail": "Thumbnail",
+      "thumbnailHint": "Select file or drag and drop here",
+      "thumbnailType": "JPG, JPEG or PNG",
+      "thumbnailRecommendation": "JPEG, JPG, PNG up to 10MB, recommended size 960 x 574 pixels",
+      "maxSize": "Max",
+      "selectFile": "Select file",
+      "type": "Post Type",
+      "typeHoiThao": "Seminar",
+      "typeOffline": "Offline",
+      "typeCongDong": "Community",
+      "noCategoriesHint": "No categories found. Please contact admin to create categories.",
+      "loadCategoriesFailed": "Failed to load categories"
+    },
+    "basicInfo": "Basic Information",
+    "writingTips": "Tips for writing engaging posts:",
+    "tips": {
+      "engaging": "Use engaging and concise headlines to make a strong first impression.",
+      "keywords": "Integrate keywords naturally to improve searchability.",
+      "structure": "Break content into short paragraphs and use subheadings for better readability.",
+      "images": "Add high-quality images to illustrate and enrich the content.",
+      "cta": "End with a clear call-to-action to encourage engagement."
+    },
+    "writingTipsShort": "Writing Tips",
+    "eventTips": {
+      "useToolbar": "Use the formatting toolbar to structure your content",
+      "addTags": "Add relevant tags to help readers find your post",
+      "autoSave": "Your work will be automatically saved every 60 seconds",
+      "usePreview": "Use Preview to see what your post will look like"
+    },
+    "characterCount": "{count} / {max} characters",
+    "validation": {
+      "titleRequired": "Please enter title",
+      "contentRequired": "Please enter content",
+      "categoryRequired": "Please select category",
+      "thumbnailRequired": "Please upload thumbnail"
+    },
+    "upload": {
+      "user_not_found": "User not found",
+      "invalid_role": "You don't have permission to perform this action",
+      "failed": "Failed to upload image. Please try again."
+    }
+  },
+  "courseReview": {
+    "title": "Course Review",
+    "yourReview": "Your Review",
+    "editHint": "You can edit your review anytime",
+    "shareExperience": "Share your experience to help other students",
+    "satisfaction": "Satisfaction Level",
+    "ratings": {
+      "veryDissatisfied": "Very Dissatisfied",
+      "dissatisfied": "Dissatisfied",
+      "neutral": "Neutral",
+      "satisfied": "Satisfied",
+      "verySatisfied": "Very Satisfied"
+    },
+    "commentLabel": "Your Comment",
+    "commentPlaceholder": "Share your thoughts, what you liked or what could be improved...",
+    "submitReview": "Submit Review",
+    "updateReview": "Update Review",
+    "submitting": "Submitting...",
+    "selectRating": "Please select a rating",
+    "submitSuccess": "Review submitted successfully!",
+    "updateSuccess": "Review updated successfully!",
+    "error": "An error occurred, please try again",
+    "loadingReview": "Loading review..."
+  },
+  "teacherCourseDetail": {
+    "notFound": "Course not found",
+    "loadError": "Unable to load course information",
+    "publishError": "Unable to publish course",
+    "saveError": "Unable to save/publish course",
+    "back": "Back",
+    "breadcrumb": {
+      "management": "Course Management",
+      "detail": "Course Detail"
+    },
+    "stats": {
+      "revenue": "Net Revenue",
+      "gradedAssignments": "Graded Assignments",
+      "totalStudents": "Total Students",
+      "avgCompletion": "Average Completion Rate"
+    },
+    "studentListTitle": "Student List",
+    "gradeAssignments": "Grade assignments",
+    "viewMoreStudents": "View more",
+    "backToFirstPage": "Back to first page",
+    "pageOf": "Page {current} / {total}",
+    "comingSoon": "Coming Soon"
+  },
+  "teacherCourseContent": {
+    "title": "Course Content",
+    "addModule": "Add Module",
+    "editModule": "Edit Module",
+    "deleteModule": "Delete Module",
+    "uploadDocument": "Upload Document",
+    "deleteDocument": "Delete Document",
+    "moduleName": "Module Name",
+    "moduleDescription": "Module Description",
+    "moduleNamePlaceholder": "Enter module name",
+    "moduleDescPlaceholder": "Enter module description",
+    "documentName": "Document Name",
+    "documentType": "Document Type",
+    "selectFile": "Select File",
+    "uploading": "Uploading...",
+    "creating": "Creating...",
+    "updating": "Updating...",
+    "deleting": "Deleting...",
+    "createModuleFirst": "Please create module successfully before uploading documents",
+    "createModuleSuccess": "Module created successfully",
+    "updateModuleSuccess": "Module updated successfully",
+    "deleteModuleSuccess": "Module deleted successfully",
+    "uploadDocumentSuccess": "Document uploaded successfully",
+    "deleteDocumentSuccess": "Document deleted successfully",
+    "createModuleError": "Cannot create module",
+    "updateModuleError": "Cannot update module",
+    "deleteModuleError": "Cannot delete module",
+    "uploadDocumentError": "Upload failed",
+    "deleteDocumentError": "Cannot delete document",
+    "loadModulesFailed": "Unable to load module content",
+    "confirmDeleteModule": "Are you sure you want to delete this module?",
+    "confirmDeleteDocument": "Are you sure you want to delete this document?",
+    "moduleNameRequired": "Please enter module name",
+    "moduleNameRequiredForVideo": "Please enter module name before uploading video",
+    "fileRequired": "Please select a file",
+    "noModules": "No modules yet",
+    "noDocuments": "No documents yet",
+    "breadcrumb": {
+      "management": "Course Management",
+      "create": "Create New"
+    },
+    "pageTitle": "Create New Course",
+    "steps": {
+      "info": "Course Information",
+      "content": "Modules & Assignments",
+      "preview": "Preview"
+    },
+    "sectionTitle": "Module Information",
+    "createModuleButton": "Create Module",
+    "learningMaterials": "Learning Materials",
+    "selectOrDrag": "Select file or drag and drop here",
+    "addFile": "Add File",
+    "reset": "Reset",
+    "next": "Next",
+    "saving": "Saving...",
+    "courseContent": "Course Content",
+    "modulesAndQuizzes": "{modules} modules • {quizzes} assignments",
+    "materials": "{count} materials",
+    "quizzes": "{count} assignments",
+    "noTitle": "No title",
+    "addNewModule": "Add New Module",
+    "warningCreateFirst": "Please create module successfully before uploading documents.",
+    "createQuizSuccess": "Assignment created successfully",
+    "updateQuizSuccess": "Assignment updated successfully",
+    "deleteQuizSuccess": "Assignment deleted successfully",
+    "deleteQuizError": "Cannot delete assignment",
+    "mobileHelpfulKnowledge": "Helpful knowledge",
+    "episodeTitle": "Episode {number}: {title}",
+    "featuredCourse": "Featured course",
+    "videoUploadWarning": "Please upload video in the \"Lecture Video\" section above.",
+    "browseFile": "Browse File",
+    "fileFormats": "XLSX, CSV, PDF up to 50MB",
+    "helperMessage": "Helper Message",
+    "draftSaved": "draft saved",
+    "deleteDocumentConfirm": "Are you sure you want to delete document \"{name}\"? This action cannot be undone.",
+    "deleteModuleConfirm": "Are you sure you want to delete module \"{name}\"? This action cannot be undone.",
+    "deleteQuizConfirm": "Are you sure you want to delete assignment \"{title}\"? This action cannot be undone.",
+    "confirmDelete": "Delete",
+    "confirmCancel": "Cancel",
+    "cannotDeleteModule": "Cannot delete this module because it has {items}. Please remove all content before deleting.",
+    "loadQuizFailed": "Unable to load assignment information",
+    "updateFailed": "Update failed",
+    "quizSummary": {
+      "title": "Assignments",
+      "create": "Create Assignment",
+      "addMore": "Add Another Assignment",
+      "questions": "{count} questions",
+      "timeLimit": "{count} minutes",
+      "passScore": "Pass: {pass}/{total} questions",
+      "confirmDelete": "Are you sure you want to delete assignment \"{title}\"?"
+    }
+  },
+  "teacherCourseReview": {
+    "title": "Course Preview",
+    "saving": "Saving...",
+    "publishing": "Publishing...",
+    "breadcrumb": {
+      "management": "Course Management",
+      "review": "Preview"
+    },
+    "courseInfo": "Course Information",
+    "courseContent": "Course Content",
+    "pricing": "Course Pricing",
+    "publish": "Publish",
+    "edit": "Edit",
+    "publishCourse": "Publish Course",
+    "unpublishCourse": "Unpublish Course",
+    "save": "Save",
+    "saveCourse": "Save Course",
+    "saveAndPublish": "Save and Publish Course",
+    "backToPreview": "Back to preview",
+    "viewAsStudent": "View as Student",
+    "previewTitle": "Course Preview",
+    "unpublished": "Unpublished",
+    "teachingContent": "Teaching Content",
+    "createSuccessTitle": "Course Created Successfully",
+    "createSuccessDesc": "You can continue building content or review the course before publishing.",
+    "continueEditing": "Continue Editing",
+    "goToExplore": "Go to Explore",
+    "publishSuccessTitle": "Course Created and Published Successfully",
+    "publishSuccessDesc": "You can update materials or unpublish the course anytime.",
+    "updateMaterials": "Update Materials",
+    "deleteDocument": "Delete Document",
+    "deleteDocumentConfirm": "Are you sure you want to delete document \"{name}\"? This action cannot be undone.",
+    "deleteModule": "Delete Module",
+    "deleteModuleConfirm": "Are you sure you want to delete module \"{name}\"? This action cannot be undone.",
+    "deleteQuiz": "Delete Assignment",
+    "deleteQuizConfirm": "Are you sure you want to delete assignment \"{title}\"? This action cannot be undone.",
+    "confirmDelete": "Delete",
+    "cancel": "Cancel",
+    "loadQuizFailed": "Unable to load assignment information"
+  },
+  "termsPage": {
+    "tabLearner": "Learner Terms",
+    "tabPartnerTeacher": "Responsibility & IP Policy (Partner Instructors)"
+  },
+  "learnerPolicy": {
+    "title": "Learner Policy",
+    "lastUpdated": "Last updated: 01/01/2026",
+    "section1": {
+      "title": "1. Platform information and Learner role",
+      "p1": "5200AI is a technology platform that connects Learners with online courses provided by Teachers, experts or training organizations.",
+      "p2": "5200AI does not teach directly, does not commit to replacing the role of Teachers, and does not guarantee absolute individual learning outcomes.",
+      "p3": "Learners participating on the platform are defined as users of the learning service, with the right to choose courses, Teachers and learning paths that suit their personal needs."
+    },
+    "section2": {
+      "title": "2. Learner rights",
+      "intro": "Learners have the following rights:",
+      "item1": "Access to course content as described in the published information",
+      "item2": "Learning according to a clear, transparent path",
+      "item3": "Providing feedback and evaluating course and Teacher quality after completion",
+      "item4": "Protection of their interests by the 5200AI platform in case of legitimate disputes",
+      "closing": "5200AI applies a revenue recognition mechanism based on course completion to protect Learner interests and reduce the risk of paying for courses without receiving commensurate value."
+    },
+    "section3": {
+      "title": "3. Learner obligations and responsibilities",
+      "responsibilityLabel": "Learners are responsible for:",
+      "resp1": "Providing accurate personal information when registering an account",
+      "resp2": "Actively participating in learning according to the course path",
+      "resp3": "Completing lessons, assignments and confirming course completion on the system",
+      "resp4": "Using course content for personal learning purposes only",
+      "prohibitedLabel": "Learners must not:",
+      "prob1": "Copy, share or distribute course content to third parties in any form",
+      "prob2": "Use course content for commercial purposes without written permission from the Teacher and/or 5200AI",
+      "prob3": "Engage in disruptive, offensive or abusive behavior towards Teachers, other Learners or the platform system"
+    },
+    "section4": {
+      "title": "4. Payment and course usage policy",
+      "intro": "When registering and paying for a course on the 5200AI platform, Learners understand and agree that:",
+      "bullet1": "The fee paid is the cost of using the learning service",
+      "bullet2": "Course access is granted according to the duration and specific conditions of each course",
+      "responsibilityLabel": "Learners are responsible for:",
+      "resp1": "Actively participating in learning while the course is still valid",
+      "resp2": "Fulfilling all learning requirements to be confirmed as having completed the course",
+      "closing": "Failure to participate in learning or to complete the course due to the Learner's own reasons shall not be grounds for a refund request, except as provided in Section 5."
+    },
+    "section5": {
+      "title": "5. Feedback, complaints and dispute resolution",
+      "intro": "Learners have the right to send feedback or complaints to 5200AI in the following cases:",
+      "item1": "Course content does not match the published description",
+      "item2": "Course quality does not meet a reasonable level compared to commitments",
+      "item3": "Signs of fraud, spam or fraudulent conduct by the Teacher",
+      "processLabel": "Upon receiving a report, 5200AI will:",
+      "process1": "Verify relevant information",
+      "process2": "Temporarily freeze revenue of the reported course (if necessary)",
+      "process3": "Coordinate with the Teacher to clarify the issue",
+      "timeNote": "Verification time normally does not exceed 15 working days from the date of receiving a valid response.",
+      "resultLabel": "Resolution outcomes may include:",
+      "result1": "Maintaining the course outcome if no violation is found",
+      "result2": "Applying appropriate remedial or support measures for the Learner",
+      "result3": "Applying sanctions against the Teacher if policy violations are found"
+    },
+    "section6": {
+      "title": "6. Limitation of 5200AI platform liability",
+      "intro": "5200AI is not responsible for:",
+      "item1": "The specific learning outcomes of each Learner",
+      "item2": "Personal, career or financial decisions of Learners after completing a course",
+      "item3": "Disputes arising outside the scope of the platform or unrelated to the use of 5200AI services",
+      "closing": "5200AI acts as an intermediary in support, ensuring a transparent learning environment, but does not replace the individual responsibility of Learners in the learning process."
+    },
+    "section7": {
+      "title": "7. Compliance with laws and related regulations",
+      "intro": "Learners commit to:",
+      "item1": "Complying with current laws when using the platform",
+      "item2": "Not using the platform for illegal purposes",
+      "item3": "Respecting the intellectual property rights of Teachers and 5200AI",
+      "consequenceLabel": "In case of serious or repeated violations by the Learner, 5200AI has the right to:",
+      "cons1": "Suspend or terminate the account",
+      "cons2": "Revoke course access without refunding fees already paid"
+    },
+    "section8": {
+      "title": "8. Effectiveness and acknowledgment",
+      "body": "A Learner creating an account, enrolling in a course or using services on the 5200AI platform is deemed to have read, understood and agreed to the entire content of this Learner Policy."
+    },
+    "backButton": "Go back",
+    "agreement": "By registering, you agree to the policies above."
+  },
+  "partnerTeacherPolicy": {
+    "title": "Responsibility and Intellectual Property Policy",
+    "subtitle": "Applicable to the Advanced AI Application Training Program for Partner Instructors",
+    "lastUpdated": "Last updated: 01/01/2026",
+    "overview": {
+      "title": "I. Overview",
+      "body": "This document sets out policies relating to the Security Deposit and Intellectual Property (IP) management for Instructors/Partners participating in the internal training program of the 5200 AI Platform. By registering for the course, the Instructor is deemed to have read, understood and agreed to comply with the following provisions."
+    },
+    "part2": {
+      "title": "II. Security Deposit Policy",
+      "deposit": {
+        "title": "1. Deposit provisions",
+        "amount": "Deposit amount: As specified in each intake announcement (Standard amount: 1,000,000 VND).",
+        "purpose": "Purpose: To ensure Instructors fully attend training sessions and complete the output product (course)."
+      },
+      "refund": {
+        "title": "2. Refund Conditions",
+        "intro": "5200 AI Platform commits to refund 100% of the deposit to the Instructor within 07 working days after the Instructor completes the following 3 criteria:",
+        "item1": "Attendance: Participate in at least 90% of the training program duration.",
+        "item2": "Output: Complete and submit for approval at least 01 full Course on the 5200 AI system within 30 days of training completion.",
+        "item3": "Quality: The course meets 5200 AI quality assurance (QA) standards and is approved for publication."
+      },
+      "forfeiture": {
+        "title": "3. Forfeiture",
+        "intro": "The deposit will be converted into organizational compensation and will not be refunded in the following cases:",
+        "item1": "Instructor voluntarily drops out of the course without valid reason.",
+        "item2": "Instructor fails to complete or submit the output product after the committed period (unless 5200 AI agrees to an extension in writing)."
+      }
+    },
+    "part3": {
+      "title": "III. Copyright & Intellectual Property (IP) Policy",
+      "ip5200": {
+        "title": "1. 5200 AI Intellectual Property (Platform-owned)",
+        "definition": "Definition: Includes all curricula, lecture slides, instructional videos, operating procedures (SOPs), sample prompts (AI Prompts) and internal data shared during the training course.",
+        "usage": "Usage: This is exclusive and confidential property of 5200 AI. Instructors may only use it for learning and creating courses on the 5200 AI platform.",
+        "prohibited": "Prohibited: Copying, sharing externally, reselling materials or using them to run competing training is considered a serious breach of confidentiality policy."
+      },
+      "ipTeacher": {
+        "title": "2. Instructor Intellectual Property (Instructor-owned)",
+        "rights": "Copyright: The Instructor retains full authorship of course content (videos, accompanying materials) that they directly create based on knowledge acquired.",
+        "responsibility": "Responsibility: The Instructor is fully legally responsible for the originality of content and must ensure no infringement of third-party image, audio or content rights."
+      },
+      "distribution": {
+        "title": "3. Distribution Rights & Time-limited Exclusivity",
+        "grant": "Grant: The Instructor grants 5200 AI the right to distribute, commercialize and promote the course on 5200 AI's website/app system.",
+        "exclusivity": "Exclusivity commitment: The output course (product of this training) must be published EXCLUSIVELY on 5200 AI for the first 06 months. After that period, distribution rights become non-exclusive."
+      }
+    },
+    "part4": {
+      "title": "IV. Revenue & Quality Mechanism",
+      "item1": "Revenue share: Revenue is shared according to the cooperation package chosen by the Instructor (Basic 21% / Support 30% / Comprehensive 40%).",
+      "item2": "Revenue recognition: Course sales revenue is only recognized and allocated to the Instructor's wallet when the learner has completed the course and is assessed as meeting quality standards for publication on the 5200 AI platform.",
+      "item3": "Protection of interests: This mechanism helps protect Learner interests, thereby enhancing the reputation of both Instructor and Platform."
+    },
+    "backButton": "Go back"
+  },
+  "contact": {
+    "title": "Get AI tool design consultation",
+    "fullNamePlaceholder": "Full name",
+    "emailPlaceholder": "Email",
+    "phonePlaceholder": "Phone number",
+    "submit": "Submit request"
+  },
+  "packReview": {
+    "writeTitle": "Write a Review",
+    "selectRating": "Select your rating",
+    "placeholder": "Share your experience with this course pack...",
+    "sending": "Sending...",
+    "submitReview": "Submit Review"
+  }
+}
